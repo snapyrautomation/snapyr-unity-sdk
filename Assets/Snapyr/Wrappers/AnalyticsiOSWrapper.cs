@@ -1,6 +1,7 @@
 using System.Runtime.InteropServices;
 using Newtonsoft.Json;
 using Snapyr.Types;
+using Snapyr.Utils;
 using UnityEngine;
 
 namespace Snapyr.Wrappers
@@ -28,17 +29,17 @@ namespace Snapyr.Wrappers
 
         public void Initialize(string writeKey, AnalyticsConfiguration config)
         {
-            _analyticsInit(writeKey, config != null ? JsonConvert.SerializeObject(config) : null);
+            _analyticsInit(writeKey, Json.toString(config));
         }
 
         public void Identify(string id, Traits traits)
         {
-            _analyticsIdentify(id, traits != null ? JsonConvert.SerializeObject(traits) : null);
+            _analyticsIdentify(id, Json.toString(traits));
         }
 
         public void Track(string ev, Properties props)
         {
-            _analyticsTrack(ev, props != null ? JsonConvert.SerializeObject(props) : null);
+            _analyticsTrack(ev, Json.toString(props));
         }
 
         public void Screen(string name)

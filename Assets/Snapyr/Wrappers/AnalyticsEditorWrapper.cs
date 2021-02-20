@@ -1,5 +1,5 @@
-using Newtonsoft.Json;
 using Snapyr.Types;
+using Snapyr.Utils;
 using UnityEngine;
 
 namespace Snapyr
@@ -8,12 +8,12 @@ namespace Snapyr
     {
         public void Initialize(string writeKey, AnalyticsConfiguration config)
         {
-            Debug.Log("Initialize Called " + writeKey);
+            Debug.Log("Initialize Called " + writeKey + Json.toString(config));
         }
 
         public void Identify(string id, Traits traits)
         {
-            Debug.Log("Identify Called " + id + ", " + JsonConvert.SerializeObject(traits));
+            Debug.Log("Identify Called " + id + ", " + Json.toString(traits));
         }
 
         public void Track(string ev, Properties props)

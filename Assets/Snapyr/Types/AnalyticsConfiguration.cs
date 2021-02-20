@@ -4,25 +4,25 @@ namespace Snapyr.Types
     {
         public string apiHost { get; set; }
 
-        public bool trackApplicationLifecycleEvents { get; set; }
+        public bool? trackApplicationLifecycleEvents { get; set; }
 
-        public bool shouldUseBluetooth { get; set; }
+        public bool? shouldUseBluetooth { get; set; }
 
-        public bool recordScreenViews { get; set; }
+        public bool? recordScreenViews { get; set; }
 
-        public bool trackInAppPurchases { get; set; }
+        public bool? trackInAppPurchases { get; set; }
 
-        public bool trackPushNotifications { get; set; }
+        public bool? trackPushNotifications { get; set; }
 
-        public bool trackDeepLinks { get; set; }
+        public bool? trackDeepLinks { get; set; }
 
-        public bool shouldUseLocationServices { get; set; }
+        public bool? shouldUseLocationServices { get; set; }
 
-        public bool enableAdvertisingTracking { get; set; }
+        public bool? enableAdvertisingTracking { get; set; }
 
         public class Builder
         {
-            private AnalyticsConfiguration config;
+            private AnalyticsConfiguration config = new AnalyticsConfiguration();
 
             public Builder apiHost(string value)
             {
