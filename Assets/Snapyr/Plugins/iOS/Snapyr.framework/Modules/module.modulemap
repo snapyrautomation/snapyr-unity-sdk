@@ -1,0 +1,6 @@
+framework module Snapyr {
+  umbrella header "Snapyr.h"
+
+  export *
+  module * { export * }
+}
