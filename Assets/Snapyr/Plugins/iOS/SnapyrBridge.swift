@@ -31,7 +31,7 @@ public class SnapyrBridge : NSObject {
         if(config["enableAdvertisingTracking"] != nil){
             snapyrConf.enableAdvertisingTracking = config["enableAdvertisingTracking"] as! Bool;
         }
-        Analytics .setup(with: snapyrConf);
+        Analytics.setup(with: snapyrConf);
     }
     
     @objc public static func identify(id: String, traits: [String : Any]) -> Void {
