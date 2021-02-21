@@ -18,7 +18,13 @@ public class SdkTest : MonoBehaviour
                 .recordScreenViews(true)
                 .build()
         );
+        SnapyrUnity.Instance.onSnapyrAction += snapyrActionReceived;
     }
+
+    void snapyrActionReceived(string data) {
+       Debug.Log("Data Received " + data);
+     }
+
 
     public void handleIdentifyButtonClick()
     {

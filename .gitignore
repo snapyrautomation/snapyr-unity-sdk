@@ -44,6 +44,8 @@ Assets/Screenshots
 # Generated project folders
 build-ios
 build-android
+iOS
+android
 
 # MacOs files
 .DS_Store

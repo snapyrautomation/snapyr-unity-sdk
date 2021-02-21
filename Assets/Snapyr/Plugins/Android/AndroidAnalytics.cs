@@ -77,7 +77,7 @@ namespace Snapyr.Plugins.Android
         {
             getAnalyticsWithContext().Call("screen", name);
         }
-        
+
         public void Reset()
         {
             getAnalyticsWithContext().Call("reset");
