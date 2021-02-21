@@ -1,10 +1,10 @@
 #import "UnityFramework/Snapyr-Swift.h"
+#import "UnityInterface.h"
 
 #pragma mark - Actual Unity C# interface (extern C)
 
 extern "C"
 {
-
     NSDictionary* getJsonDictionary(const char* json)
     {
         NSData* jsonData = [[NSString stringWithUTF8String:json] dataUsingEncoding:NSUTF8StringEncoding];
@@ -21,9 +21,12 @@ extern "C"
     {
         NSLog(@"Analytics Init Called %s, %s", writeKey, confJson);
         NSDictionary* conf = confJson != nil ? getJsonDictionary(confJson) : nil;
-        [SnapyrBridge initSnapyrWithWriteKey:[NSString stringWithUTF8String:writeKey] config:conf];
+        [SnapyrBridge initSnapyrWithWriteKey:[NSString stringWithUTF8String:writeKey] config:conf callback:^(NSString*) {
+            const char* test = "test";
+            UnitySendMessage("SnapyrUnity", "OnAction", test);
+        }];
     }
-        
+
     void _analyticsIdentify(const char* id, const char* traitsJson)
     {
         NSLog(@"Analytics Identify Called %s, %s", id, traitsJson);
@@ -37,19 +40,19 @@ extern "C"
         NSDictionary* props = propsJson != nil ? getJsonDictionary(propsJson) : nil;
         [SnapyrBridge trackWithEvent:[NSString stringWithUTF8String:ev] properties:props];
     }
-    
+
     void _analyticsScreen(const char* name)
     {
         NSLog(@"Analytics Screen Called");
         [SnapyrBridge screenWithScreenTitle:[NSString stringWithUTF8String:name]];
     }
-    
+
     void _analyticsReset()
     {
         NSLog(@"Analytics Reset Called");
         [SnapyrBridge reset];
     }
-    
+
     void _analyticsSetDebug(bool on)
     {
         NSLog(@"Analytics Debug Called");

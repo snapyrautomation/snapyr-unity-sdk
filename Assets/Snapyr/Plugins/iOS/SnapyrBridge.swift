@@ -3,7 +3,7 @@ import Snapyr
 
 public class SnapyrBridge : NSObject {
 
-    @objc public static func initSnapyr(writeKey: String, config: [String : Any]) -> Void {
+    @objc public static func initSnapyr(writeKey: String, config: [String : Any], callback: @escaping ((NSString) -> Void)) -> Void {
         let snapyrConf = config["apiHost"] == nil
             ? AnalyticsConfiguration(writeKey: writeKey)
             : AnalyticsConfiguration(writeKey: writeKey, defaultAPIHost: URL(string: config["apiHost"] as! String));
@@ -31,9 +31,23 @@ public class SnapyrBridge : NSObject {
         if(config["enableAdvertisingTracking"] != nil){
             snapyrConf.enableAdvertisingTracking = config["enableAdvertisingTracking"] as! Bool;
         }
+        snapyrConf.actionHandler = {
+            action in
+            print("Action Back",action)
+            do {
+                let jsonData = try JSONSerialization.data(withJSONObject: action, options: .prettyPrinted)
+                let decoded = try JSONSerialization.jsonObject(with: jsonData, options: [])
+                if let dictFromJSON = decoded as? [String:String] {
+                    let str2 = dictFromJSON.description as NSString
+                    callback(str2)
+                }
+            } catch {
+                print(error.localizedDescription)
+            }
+        }
         Analytics.setup(with: snapyrConf);
     }
-    
+
     @objc public static func identify(id: String, traits: [String : Any]) -> Void {
         Analytics.shared().identify(id, traits: traits)
     }
