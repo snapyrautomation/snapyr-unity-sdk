@@ -16,27 +16,27 @@ namespace Snapyr.Wrappers
 
         public void Identify(string id, Traits traits)
         {
-            throw new NotImplementedException();
+            analytics.Identify(id, traits);
         }
 
         public void Track(string ev, Properties props)
         {
-            throw new NotImplementedException();
+            analytics.Track(ev, props);
         }
 
         public void Screen(string name)
         {
-            throw new NotImplementedException();
+            analytics.Screen(name);
         }
 
         public void Reset()
         {
-            throw new NotImplementedException();
+            analytics.Reset();
         }
 
         public void SetDebugEnabled(bool enabled)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }
