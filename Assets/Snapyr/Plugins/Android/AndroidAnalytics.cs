@@ -34,10 +34,6 @@ namespace Snapyr.Plugins.Android
             }
             //         public Analytics.Builder actionHandler(SnapyrActionHandler actionHandler) {
             AndroidJavaObject sab = new AndroidJavaObject("com.snapyr.analytics.SnapyrActionBridge");
-            /*
-            using (AndroidJavaClass jc = new AndroidJavaClass("com.unity3d.player.UnityPlayer")) {
-              jc.CallStatic("UnitySendMessage", "Main Camera", "JavaMessage", "whoowhoo");
-            } */
             builder.Call<AndroidJavaObject>("actionHandler",sab);
             var analytics = builder.Call<AndroidJavaObject>("build");
             clazz.CallStatic("setSingletonInstance", analytics);
