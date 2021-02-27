@@ -32,7 +32,13 @@ namespace Snapyr.Plugins.Android
             {
                 builder.Call<AndroidJavaObject>("trackDeepLinks");
             }
-
+            //         public Analytics.Builder actionHandler(SnapyrActionHandler actionHandler) {
+            AndroidJavaObject sab = new AndroidJavaObject("com.snapyr.analytics.SnapyrActionBridge");
+            /*
+            using (AndroidJavaClass jc = new AndroidJavaClass("com.unity3d.player.UnityPlayer")) {
+              jc.CallStatic("UnitySendMessage", "Main Camera", "JavaMessage", "whoowhoo");
+            } */
+            builder.Call<AndroidJavaObject>("actionHandler",sab);
             var analytics = builder.Call<AndroidJavaObject>("build");
             clazz.CallStatic("setSingletonInstance", analytics);
         }
@@ -85,5 +91,6 @@ namespace Snapyr.Plugins.Android
 
         private AndroidJavaObject getAnalyticsWithContext() =>
             clazz.CallStatic<AndroidJavaObject>("with", AndroidUtils.GetApplicationContext());
+
     }
 }
