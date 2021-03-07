@@ -1,6 +1,6 @@
 namespace Snapyr.Types
 {
-    public class AnalyticsConfiguration
+    public class SnapyrConfiguration
     {
         public string apiHost { get; set; }
 
@@ -22,7 +22,7 @@ namespace Snapyr.Types
 
         public class Builder
         {
-            private AnalyticsConfiguration config = new AnalyticsConfiguration();
+            private SnapyrConfiguration config = new SnapyrConfiguration();
 
             public Builder apiHost(string value)
             {
@@ -78,7 +78,7 @@ namespace Snapyr.Types
                 return this;
             }
 
-            public AnalyticsConfiguration build() => config;
+            public SnapyrConfiguration build() => config;
         }
     }
 }

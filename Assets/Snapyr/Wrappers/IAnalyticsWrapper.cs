@@ -2,9 +2,9 @@ using Snapyr.Types;
 
 namespace Snapyr
 {
-    internal interface IAnalyticsWrapper
+    internal interface ISnapyrWrapper
     {
-        void Initialize(string writeKey, AnalyticsConfiguration config);
+        void Initialize(string writeKey, SnapyrConfiguration config);
         void Identify(string id, Traits traits);
         void Track(string ev, Properties props);
         void Screen(string name);

@@ -5,24 +5,24 @@ using UnityEngine;
 
 namespace Snapyr
 {
-    public class AnalyticsWrapper : IAnalyticsWrapper
+    public class SnapyrWrapper : ISnapyrWrapper
     {
-        private static readonly AnalyticsWrapper instance = new AnalyticsWrapper();
+        private static readonly SnapyrWrapper instance = new SnapyrWrapper();
 
-        public static AnalyticsWrapper I => instance;
+        public static SnapyrWrapper I => instance;
 
-        private IAnalyticsWrapper wrapper;
+        private ISnapyrWrapper wrapper;
 
-        static AnalyticsWrapper()
+        static SnapyrWrapper()
         {
 
         }
-        private AnalyticsWrapper()
+        private SnapyrWrapper()
         {
             wrapper = createWrapper();
         }
 
-        public void Initialize(string writeKey, AnalyticsConfiguration config)
+        public void Initialize(string writeKey, SnapyrConfiguration config)
         {
             wrapper.Initialize(writeKey, config);
         }
@@ -52,17 +52,17 @@ namespace Snapyr
             wrapper.SetDebugEnabled(enabled);
         }
 
-        private IAnalyticsWrapper createWrapper()
+        private ISnapyrWrapper createWrapper()
         {
 #if UNITY_EDITOR
-            return new AnalyticsEditorWrapper();
+            return new SnapyrEditorWrapper();
 #endif
             switch (Application.platform)
             {
                 case RuntimePlatform.Android:
-                    return new AnalyticsAndroidWrapper();
+                    return new SnapyrAndroidWrapper();
                 case RuntimePlatform.IPhonePlayer:
-                    return new AnalyticsiOSWrapper();
+                    return new SnapyriOSWrapper();
                 default:
                     throw new Exception("Invalid Platform");
             }

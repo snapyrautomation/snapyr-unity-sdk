@@ -19,7 +19,7 @@ extern "C"
 
     void _analyticsInit(const char* writeKey, const char* confJson)
     {
-        NSLog(@"Analytics Init Called %s, %s", writeKey, confJson);
+        NSLog(@"Snapyr Init Called %s, %s", writeKey, confJson);
         NSDictionary* conf = confJson != nil ? getJsonDictionary(confJson) : nil;
         [SnapyrBridge initSnapyrWithWriteKey:[NSString stringWithUTF8String:writeKey] config:conf callback:^(NSString*) {
             const char* test = "test";
@@ -29,33 +29,33 @@ extern "C"
 
     void _analyticsIdentify(const char* id, const char* traitsJson)
     {
-        NSLog(@"Analytics Identify Called %s, %s", id, traitsJson);
+        NSLog(@"Snapyr Identify Called %s, %s", id, traitsJson);
         NSDictionary* traits = traitsJson != nil ? getJsonDictionary(traitsJson) : nil;
         [SnapyrBridge identifyWithId:[NSString stringWithUTF8String:id] traits:traits];
     }
 
     void _analyticsTrack(const char* ev, const char* propsJson)
     {
-        NSLog(@"Analytics Identify Called %s, %s", ev, propsJson);
+        NSLog(@"Snapyr Identify Called %s, %s", ev, propsJson);
         NSDictionary* props = propsJson != nil ? getJsonDictionary(propsJson) : nil;
         [SnapyrBridge trackWithEvent:[NSString stringWithUTF8String:ev] properties:props];
     }
 
     void _analyticsScreen(const char* name)
     {
-        NSLog(@"Analytics Screen Called");
+        NSLog(@"Snapyr Screen Called");
         [SnapyrBridge screenWithScreenTitle:[NSString stringWithUTF8String:name]];
     }
 
     void _analyticsReset()
     {
-        NSLog(@"Analytics Reset Called");
+        NSLog(@"Snapyr Reset Called");
         [SnapyrBridge reset];
     }
 
     void _analyticsSetDebug(bool on)
     {
-        NSLog(@"Analytics Debug Called");
+        NSLog(@"Snapyr Debug Called");
         [SnapyrBridge debugOn:on];
     }
 }

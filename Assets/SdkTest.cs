@@ -12,8 +12,8 @@ public class SdkTest : MonoBehaviour
     void Start()
     {
         Debug.Log(">>>>>>> Starting Snapyr SDK Test <<<<<<<");
-        AnalyticsWrapper.I.Initialize("4IIPRssIBRGzcQdkrYJhMtcXwB4a6AKf",
-            new AnalyticsConfiguration.Builder()
+        SnapyrWrapper.I.Initialize("4IIPRssIBRGzcQdkrYJhMtcXwB4a6AKf",
+            new SnapyrConfiguration.Builder()
                 .trackApplicationLifecycleEvents(true)
                 .recordScreenViews(true)
                 .build()
@@ -31,15 +31,15 @@ public class SdkTest : MonoBehaviour
         Debug.Log("IDENTIFY CLICKED " + callnumi);
         if (callnumi == 0)
         {
-            AnalyticsWrapper.I.Identify("testevent0", new Traits().Put("name1", "value1"));
+            SnapyrWrapper.I.Identify("testevent0", new Traits().Put("name1", "value1"));
         }
         else if (callnumi == 1)
         {
-            AnalyticsWrapper.I.Identify("testevent1", new Traits().Put("name1", "value1").Put("name2", "value2"));
+            SnapyrWrapper.I.Identify("testevent1", new Traits().Put("name1", "value1").Put("name2", "value2"));
         }
         else
         {
-            AnalyticsWrapper.I.Identify("testevent" + callnumi, null);
+            SnapyrWrapper.I.Identify("testevent" + callnumi, null);
         }
 
         callnumi++;
@@ -50,15 +50,15 @@ public class SdkTest : MonoBehaviour
         Debug.Log("Track CLICKED" + callnum);
         if (callnum == 0)
         {
-            AnalyticsWrapper.I.Track("testevent0", new Properties().Put("name1", "value1"));
+            SnapyrWrapper.I.Track("testevent0", new Properties().Put("name1", "value1"));
         }
         else if (callnum == 1)
         {
-            AnalyticsWrapper.I.Track("testevent1", new Properties().Put("name1", "value1").Put("name2", "value2"));
+            SnapyrWrapper.I.Track("testevent1", new Properties().Put("name1", "value1").Put("name2", "value2"));
         }
         else
         {
-            AnalyticsWrapper.I.Track("testevent" + callnum, null);
+            SnapyrWrapper.I.Track("testevent" + callnum, null);
         }
 
         callnum++;
@@ -67,7 +67,7 @@ public class SdkTest : MonoBehaviour
     public void handleScreenButtonClick()
     {
         Debug.Log("Screen CLICKED");
-        AnalyticsWrapper.I.Screen("testscreen");
+        SnapyrWrapper.I.Screen("testscreen");
     }
 
 

@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Snapyr.Wrappers
 {
-    internal class AnalyticsiOSWrapper : IAnalyticsWrapper
+    internal class SnapyriOSWrapper : ISnapyrWrapper
     {
         [DllImport("__Internal")]
         private static extern void _analyticsInit(string writeKey, string configJson);
@@ -27,7 +27,7 @@ namespace Snapyr.Wrappers
         private static extern void _analyticsSetDebug(bool enabled);
 
 
-        public void Initialize(string writeKey, AnalyticsConfiguration config)
+        public void Initialize(string writeKey, SnapyrConfiguration config)
         {
             _analyticsInit(writeKey, Json.toString(config));
         }

@@ -4,9 +4,9 @@ using UnityEngine;
 
 namespace Snapyr
 {
-    public class AnalyticsEditorWrapper : IAnalyticsWrapper
+    public class SnapyrEditorWrapper : ISnapyrWrapper
     {
-        public void Initialize(string writeKey, AnalyticsConfiguration config)
+        public void Initialize(string writeKey, SnapyrConfiguration config)
         {
             Debug.Log("Initialize Called " + writeKey + Json.toString(config));
         }

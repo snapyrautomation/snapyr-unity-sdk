@@ -4,13 +4,13 @@ using Snapyr.Types;
 
 namespace Snapyr.Wrappers
 {
-    internal class AnalyticsAndroidWrapper : IAnalyticsWrapper
+    internal class SnapyrAndroidWrapper : ISnapyrWrapper
     {
-        private AndroidAnalytics analytics;
+        private AndroidSnapyr analytics;
 
-        public void Initialize(string writeKey, AnalyticsConfiguration config)
+        public void Initialize(string writeKey, SnapyrConfiguration config)
         {
-            analytics = new AndroidAnalytics();
+            analytics = new AndroidSnapyr();
             analytics.Initialize(writeKey, config);
         }
 
@@ -36,7 +36,7 @@ namespace Snapyr.Wrappers
 
         public void SetDebugEnabled(bool enabled)
         {
-            
+
         }
     }
 }

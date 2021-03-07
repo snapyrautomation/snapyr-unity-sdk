@@ -5,8 +5,8 @@ public class SnapyrBridge : NSObject {
 
     @objc public static func initSnapyr(writeKey: String, config: [String : Any], callback: @escaping ((NSString) -> Void)) -> Void {
         let snapyrConf = config["apiHost"] == nil
-            ? AnalyticsConfiguration(writeKey: writeKey)
-            : AnalyticsConfiguration(writeKey: writeKey, defaultAPIHost: URL(string: config["apiHost"] as! String));
+            ? SnapyrConfiguration(writeKey: writeKey)
+            : SnapyrConfiguration(writeKey: writeKey, defaultAPIHost: URL(string: config["apiHost"] as! String));
         if(config["trackApplicationLifecycleEvents"] != nil){
             snapyrConf.trackApplicationLifecycleEvents = config["trackApplicationLifecycleEvents"] as! Bool;
         }
@@ -45,26 +45,26 @@ public class SnapyrBridge : NSObject {
                 print(error.localizedDescription)
             }
         }
-        Analytics.setup(with: snapyrConf);
+        Snapyr.setup(with: snapyrConf);
     }
 
     @objc public static func identify(id: String, traits: [String : Any]) -> Void {
-        Analytics.shared().identify(id, traits: traits)
+        Snapyr.shared().identify(id, traits: traits)
     }
 
     @objc public static func track(event: String, properties: [String : Any]) -> Void {
-        Analytics.shared().track(event, properties: properties)
+        Snapyr.shared().track(event, properties: properties)
     }
 
     @objc public static func screen(screenTitle: String) -> Void {
-        Analytics.shared().screen(screenTitle)
+        Snapyr.shared().screen(screenTitle)
     }
 
     @objc public static func reset() -> Void {
-        Analytics.shared().reset()
+        Snapyr.shared().reset()
     }
 
     @objc public static func debug(on: Bool) -> Void {
-        Analytics.debug(on)
+        Snapyr.debug(on)
     }
 }
