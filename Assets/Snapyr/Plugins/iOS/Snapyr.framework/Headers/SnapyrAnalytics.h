@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @class SnapyrAnalyticsConfiguration;
 
-NS_SWIFT_NAME(Analytics)
+NS_SWIFT_NAME(Snapyr)
 @interface SnapyrAnalytics : NSObject
 
 /**
@@ -90,6 +90,9 @@ NS_SWIFT_NAME(Analytics)
 - (void)track:(NSString *)event properties:(SERIALIZABLE_DICT _Nullable)properties options:(SERIALIZABLE_DICT _Nullable)options;
 - (void)track:(NSString *)event properties:(SERIALIZABLE_DICT _Nullable)properties;
 - (void)track:(NSString *)event;
+
+- (void)setPushNotificationToken:(NSString*)token;
+- (void)pushNotificationReceived:(SERIALIZABLE_DICT _Nullable)info;
 
 /*!
  @method

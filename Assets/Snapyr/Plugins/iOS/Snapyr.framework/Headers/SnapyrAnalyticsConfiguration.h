@@ -51,7 +51,7 @@ typedef void(^SnapyrActionHandlerBlock)(NSDictionary*_Nonnull action);
 /**
  * This object provides a set of properties to control various policies of the analytics client. Other than `writeKey`, these properties can be changed at any time.
  */
-NS_SWIFT_NAME(AnalyticsConfiguration)
+NS_SWIFT_NAME(SnapyrConfiguration)
 @interface SnapyrAnalyticsConfiguration : NSObject
 
 /**
@@ -162,7 +162,7 @@ NS_SWIFT_NAME(AnalyticsConfiguration)
 
 /**
  * Set the default settings to use if Snapyr.com cannot be reached.
- * An example configuration can be found here, using your write key:  https://cdn-settings.segment.com/v1/projects/YOUR_WRITE_KEY/settings
+ * An example configuration can be found here, using your write key:  https://api.snapyr.com/sdk/YOUR_WRITE_KEY
  */
 @property (nonatomic, strong, nullable) NSDictionary *defaultSettings;
 
