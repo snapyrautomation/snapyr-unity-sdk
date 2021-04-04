@@ -1,3 +1,4 @@
+#if UNITY_ANDROID
 using System;
 using Snapyr.Plugins.Android;
 using Snapyr.Types;
@@ -40,3 +41,4 @@ namespace Snapyr.Wrappers
         }
     }
 }
+#endif

@@ -60,9 +60,13 @@ namespace Snapyr
             switch (Application.platform)
             {
                 case RuntimePlatform.Android:
+#if UNITY_ANDROID
                     return new SnapyrAndroidWrapper();
+#endif
                 case RuntimePlatform.IPhonePlayer:
+#if UNITY_IOS
                     return new SnapyriOSWrapper();
+#endif
                 default:
                     throw new Exception("Invalid Platform");
             }

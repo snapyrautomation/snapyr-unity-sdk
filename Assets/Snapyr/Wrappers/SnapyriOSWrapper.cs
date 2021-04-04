@@ -1,3 +1,4 @@
+#if UNITY_IOS
 using System.Runtime.InteropServices;
 using Newtonsoft.Json;
 using Snapyr.Types;
@@ -58,3 +59,4 @@ namespace Snapyr.Wrappers
         }
     }
 }
+#endif
