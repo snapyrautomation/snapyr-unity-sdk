@@ -9,13 +9,13 @@ namespace Snapyr.Plugins.Android
 
         public AndroidSnapyr()
         {
-            clazz = new AndroidJavaClass("com.snapyr.analytics.Analytics");
+            clazz = new AndroidJavaClass("com.snapyr.sdk.Snapyr");
         }
 
         public void Initialize(string writeKey, SnapyrConfiguration config)
         {
             var builder =
-                new AndroidJavaObject("com.snapyr.analytics.Analytics$Builder", AndroidUtils.GetApplicationContext(),
+                new AndroidJavaObject("com.snapyr.sdk.Snapyr$Builder", AndroidUtils.GetApplicationContext(),
                     writeKey
                 );
             if (config.trackApplicationLifecycleEvents == true)
@@ -32,20 +32,17 @@ namespace Snapyr.Plugins.Android
             {
                 builder.Call<AndroidJavaObject>("trackDeepLinks");
             }
-            //         public Snapyr.Builder actionHandler(SnapyrActionHandler actionHandler) {
-            AndroidJavaObject sab = new AndroidJavaObject("com.snapyr.analytics.SnapyrActionBridge");
-            builder.Call<AndroidJavaObject>("actionHandler", sab);
+            
             var analytics = builder.Call<AndroidJavaObject>("build");
             clazz.CallStatic("setSingletonInstance", analytics);
         }
 
         public void Identify(string id, Traits traits)
         {
-            Debug.Log("Identify Called!!!");
             if (traits != null)
             {
                 traits.PutUserId(id);
-                AndroidJavaObject t = new AndroidJavaObject("com.snapyr.analytics.Traits");
+                AndroidJavaObject t = new AndroidJavaObject("com.snapyr.sdk.Traits");
                 foreach (var name in traits.Keys)
                 {
                     t.Call<AndroidJavaObject>("putValue", name, traits[name]);
@@ -62,7 +59,7 @@ namespace Snapyr.Plugins.Android
         {
             if (props != null)
             {
-                AndroidJavaObject p = new AndroidJavaObject("com.snapyr.analytics.Properties");
+                AndroidJavaObject p = new AndroidJavaObject("com.snapyr.sdk.Properties");
                 foreach (var name in props.Keys)
                 {
                     p.Call<AndroidJavaObject>("putValue", name, props[name]);
