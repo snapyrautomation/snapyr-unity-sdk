@@ -40,3 +40,10 @@ Assets/Planet_9
 Assets/Planet_9.meta
 Assets/Test
 Assets/Screenshots
+
+# Generated project folders
+build-ios
+build-android
+
+# MacOs files
+.DS_Store

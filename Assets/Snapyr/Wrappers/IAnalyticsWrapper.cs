@@ -1,15 +1,14 @@
 using Snapyr.Types;
-using System.Collections.Generic;
 
 namespace Snapyr
 {
-    internal interface IAnalyticsWrapper
+    internal interface ISnapyrWrapper
     {
-        void Initialize(AnalyticsConfiguration config);
-        void SnapyrTrack(string snapyrevent, Dictionary<string, string> sparams);
-        void Identify(string id, Dictionary<string, string> sparams);
+        void Initialize(string writeKey, SnapyrConfiguration config);
+        void Identify(string id, Traits traits);
+        void Track(string ev, Properties props);
         void Screen(string name);
         void Reset();
-        void SnapyrDebug(bool on);
+        void SetDebugEnabled(bool enabled);
     }
 }
