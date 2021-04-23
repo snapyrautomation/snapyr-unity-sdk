@@ -9,6 +9,8 @@ namespace Snapyr
     {
         private static readonly SnapyrWrapper instance = new SnapyrWrapper();
 
+        public static bool isInitialized = false;
+
         public static SnapyrWrapper I => instance;
 
         private ISnapyrWrapper wrapper;
@@ -25,6 +27,7 @@ namespace Snapyr
         public void Initialize(string writeKey, SnapyrConfiguration config)
         {
             wrapper.Initialize(writeKey, config);
+            SnapyrWrapper.isInitialized = true;
         }
 
         public void Identify(string id, Traits traits)
