@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace Snapyr.Types
 {
-    public class Traits : Dictionary<string, string>
+    public class Traits : Dictionary<string, object>
     {
         private const string AVATAR_KEY = "avatar";
         private const string CREATED_AT_KEY = "createdAt";
@@ -36,8 +36,31 @@ namespace Snapyr.Types
 
         public Traits Put(string key, string val)
         {
-            Add(key, val);
+            base.Add(key, val);
             return this;
+        }
+
+        public Traits Put(string key, int val)
+        {
+            base.Add(key, val);
+            return this;
+        }
+
+        public Traits Put(string key, double val)
+        {
+            base.Add(key, val);
+            return this;
+        }
+
+        public Traits Put(string key, bool val)
+        {
+            base.Add(key, val);
+            return this;
+        }
+
+        public new void Add(string key, object val)
+        {
+            throw new System.NotSupportedException("Calling Add() directly is not supported. Use Put() instead.");
         }
 
         public Traits PutUserId(string val) => Put(USER_ID_KEY, val);
