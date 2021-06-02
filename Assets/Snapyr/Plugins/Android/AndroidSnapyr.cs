@@ -32,7 +32,13 @@ namespace Snapyr.Plugins.Android
             {
                 builder.Call<AndroidJavaObject>("trackDeepLinks");
             }
-            
+
+            if (config.enableDevEnvironment == true)
+            {
+                // Dev mode (points at dev-api and dev-engine)
+                builder.Call<AndroidJavaObject>("enableDevEnvironment");
+            }
+
             var analytics = builder.Call<AndroidJavaObject>("build");
             clazz.CallStatic("setSingletonInstance", analytics);
         }
