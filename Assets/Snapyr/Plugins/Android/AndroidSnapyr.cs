@@ -32,9 +32,39 @@ namespace Snapyr.Plugins.Android
             {
                 builder.Call<AndroidJavaObject>("trackDeepLinks");
             }
-            
+
+            if (config.enableDevEnvironment == true)
+            {
+                // Dev mode (points at dev-api and dev-engine)
+                builder.Call<AndroidJavaObject>("enableDevEnvironment");
+            }
+
             var analytics = builder.Call<AndroidJavaObject>("build");
             clazz.CallStatic("setSingletonInstance", analytics);
+        }
+
+        private AndroidJavaObject getJavaValue(object input)
+        {
+            var valueType = input.GetType();
+
+            if (valueType == typeof(string))
+            {
+                return new AndroidJavaObject("java.lang.String", (string)input);
+            }
+            else if (valueType == typeof(int))
+            {
+                return new AndroidJavaObject("java.lang.Integer", (int)input);
+            }
+            else if (valueType == typeof(double))
+            {
+                return new AndroidJavaObject("java.lang.Double", (double)input);
+            }
+            else if (valueType == typeof(bool))
+            {
+                return new AndroidJavaObject("java.lang.Boolean", (bool)input);
+            }
+
+            return null;
         }
 
         public void Identify(string id, Traits traits)
@@ -45,7 +75,13 @@ namespace Snapyr.Plugins.Android
                 AndroidJavaObject t = new AndroidJavaObject("com.snapyr.sdk.Traits");
                 foreach (var name in traits.Keys)
                 {
-                    t.Call<AndroidJavaObject>("putValue", name, traits[name]);
+                    if (traits[name] == null)
+                    {
+                        continue;
+                    }
+
+                    var javaVal = getJavaValue(traits[name]);
+                    t.Call<AndroidJavaObject>("putValue", name, javaVal);
                 }
                 getAnalyticsWithContext().Call("identify", t);
             }
@@ -62,7 +98,13 @@ namespace Snapyr.Plugins.Android
                 AndroidJavaObject p = new AndroidJavaObject("com.snapyr.sdk.Properties");
                 foreach (var name in props.Keys)
                 {
-                    p.Call<AndroidJavaObject>("putValue", name, props[name]);
+                    if (props[name] == null)
+                    {
+                        continue;
+                    }
+
+                    var javaVal = getJavaValue(props[name]);
+                    p.Call<AndroidJavaObject>("putValue", name, javaVal);
                 }
                 getAnalyticsWithContext().Call("track", ev, p);
             }

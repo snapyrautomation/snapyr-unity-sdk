@@ -13,6 +13,7 @@ ExportedObj/
 .consulo/
 .idea/
 *.csproj
+*.vsconfig
 *.unityproj
 *.sln
 *.suo
