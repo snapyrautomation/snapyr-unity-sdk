@@ -33,6 +33,11 @@ namespace Snapyr.Plugins.Android
                 builder.Call<AndroidJavaObject>("trackDeepLinks");
             }
 
+            if (config.enableSnapyrPushHandling == true)
+            {
+                builder.Call<AndroidJavaObject>("enableSnapyrPushHandling");
+            }
+
             if (config.enableDevEnvironment == true)
             {
                 // Dev mode (points at dev-api and dev-engine)

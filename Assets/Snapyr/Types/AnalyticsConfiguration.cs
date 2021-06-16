@@ -20,6 +20,8 @@ namespace Snapyr.Types
 
         public bool? enableAdvertisingTracking { get; set; }
 
+        public bool? enableSnapyrPushHandling { get; set; }
+
         public bool? enableDevEnvironment { get; set; }
 
         public class Builder
@@ -77,6 +79,12 @@ namespace Snapyr.Types
             public Builder enableAdvertisingTracking(bool value)
             {
                 config.enableAdvertisingTracking = value;
+                return this;
+            }
+
+            public Builder enableSnapyrPushHandling(bool value)
+            {
+                config.enableSnapyrPushHandling = value;
                 return this;
             }
 
