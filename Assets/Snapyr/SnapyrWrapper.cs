@@ -24,35 +24,93 @@ namespace Snapyr
             wrapper = createWrapper();
         }
 
+        private void handleNotInitialized(string callName) {
+            Debug.LogWarning("Snapyr SDK is not initialized; skipping call: " + callName);
+        }
+
         public void Initialize(string writeKey, SnapyrConfiguration config)
         {
-            wrapper.Initialize(writeKey, config);
-            SnapyrWrapper.isInitialized = true;
+            try {
+                wrapper.Initialize(writeKey, config);
+                SnapyrWrapper.isInitialized = true;
+            } catch (Exception e) {
+                Debug.LogWarning("Could not initialize Snapyr SDK: " + e.Message);
+                Debug.LogWarning(e.Message);
+            }
         }
 
         public void Identify(string id, Traits traits)
         {
-            wrapper.Identify(id, traits);
+            if (!SnapyrWrapper.isInitialized) {
+                handleNotInitialized("Identify");
+                return;
+            }
+
+            try {
+                wrapper.Identify(id, traits);
+            } catch (Exception e) {
+                Debug.LogWarning("Encountered SDK exception when attempting operation: Identify: " + e.Message);
+                Debug.LogWarning(e.Message);
+            }
         }
 
         public void Track(string ev, Properties props)
         {
-            wrapper.Track(ev, props);
+            if (!SnapyrWrapper.isInitialized) {
+                handleNotInitialized("Track");
+                return;
+            }
+
+            try {
+                wrapper.Track(ev, props);
+            } catch (Exception e) {
+                Debug.LogWarning("Encountered SDK exception when attempting operation: Track: " + e.Message);
+                Debug.LogWarning(e.Message);
+            }
         }
 
         public void Screen(string name)
         {
-            wrapper.Screen(name);
+            if (!SnapyrWrapper.isInitialized) {
+                handleNotInitialized("Screen");
+                return;
+            }
+            
+            try {
+                wrapper.Screen(name);
+            } catch (Exception e) {
+                Debug.LogWarning("Encountered SDK exception when attempting operation: Screen: " + e.Message);
+                Debug.LogWarning(e.Message);
+            }
         }
 
         public void Reset()
         {
-            wrapper.Reset();
+            if (!SnapyrWrapper.isInitialized) {
+                handleNotInitialized("Reset");
+                return;
+            }
+            
+            try {
+                wrapper.Reset();
+            } catch (Exception e) {
+                Debug.LogWarning("Encountered SDK exception when attempting operation: Reset: " + e.Message);
+            }
         }
 
         public void SetDebugEnabled(bool enabled)
         {
-            wrapper.SetDebugEnabled(enabled);
+            if (!SnapyrWrapper.isInitialized) {
+                handleNotInitialized("SetDebugEnabled");
+                return;
+            }
+            
+            try {
+                wrapper.SetDebugEnabled(enabled);
+            } catch (Exception e) {
+                Debug.LogWarning("Encountered SDK exception when attempting operation: SetDebugEnabled: " + e.Message);
+                Debug.LogWarning(e.Message);
+            }
         }
 
         private ISnapyrWrapper createWrapper()
