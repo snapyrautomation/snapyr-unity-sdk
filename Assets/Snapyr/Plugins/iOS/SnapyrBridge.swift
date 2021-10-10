@@ -28,6 +28,9 @@ public class SnapyrBridge : NSObject {
         if(config["shouldUseLocationServices"] != nil){
             snapyrConf.shouldUseLocationServices = config["shouldUseLocationServices"] as! Bool;
         }
+        if(config["enableDevEnvironment"] != nil){
+            snapyrConf.enableDevEnvironment = config["enableDevEnvironment"] as! Bool;
+        }
         if(config["enableAdvertisingTracking"] != nil){
             snapyrConf.enableAdvertisingTracking = config["enableAdvertisingTracking"] as! Bool;
         }
