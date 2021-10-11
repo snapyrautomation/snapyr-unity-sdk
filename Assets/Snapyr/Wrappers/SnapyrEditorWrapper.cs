@@ -8,6 +8,7 @@ namespace Snapyr
     {
         public void Initialize(string writeKey, SnapyrConfiguration config)
         {
+            // throw new System.Exception("Intentional error for testing");
             Debug.Log("Initialize Called " + writeKey + Json.toString(config));
         }
 
