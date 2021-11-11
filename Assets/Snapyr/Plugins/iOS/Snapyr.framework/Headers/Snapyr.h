@@ -6,7 +6,7 @@
 //  Copyright © 2016 Segment. All rights reserved.
 //
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 //! Project version number for Analytics.
 FOUNDATION_EXPORT double SnapyrVersionNumber;
@@ -19,7 +19,6 @@ FOUNDATION_EXPORT const unsigned char SnapyrVersionString[];
 #import "SnapyrSnapyrIntegrationFactory.h"
 #import "SnapyrContext.h"
 #import "SnapyrMiddleware.h"
-#import "SnapyrPushAdaptor.h"
 #import "SnapyrScreenReporting.h"
 #import "SnapyrSDKUtils.h"
 #import "SnapyrWebhookIntegration.h"
