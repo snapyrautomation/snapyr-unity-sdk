@@ -6,12 +6,12 @@
 //  Copyright © 2016 Segment. All rights reserved.
 //
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 #if TARGET_OS_IPHONE
-@import UIKit;
+#import <UIKit/UIKit.h>
 #elif TARGET_OS_OSX
-@import Cocoa;
+#import <Cocoa/Cocoa.h>
 #endif
 
 NS_SWIFT_NAME(ApplicationProtocol)
@@ -83,6 +83,13 @@ NS_SWIFT_NAME(SnapyrConfiguration)
  * This value can change based on settings obtained from Snapyr.
  */
 @property (nonatomic, copy, readonly, nullable) NSURL *apiHost;
+
+/**
+ * Whether to use dev endpoints for API config and engine. `NO` by default.
+ * If `NO`, uses production endpoints (`api.snapyr.com` and `engine.snapyr.com`)
+ * If `YES`, uses dev endpoints (`api.snapyrdev.net` and `dev-engine.snapyrdev.net`)
+ */
+@property (nonatomic, assign) BOOL enableDevEnvironment;
 
 /**
  * Whether the sdk should use location services.
