@@ -1,0 +1,1724 @@
+BCSymbolMap Version: 2.0
+Apple clang version 13.0.0 (clang-1300.0.29.30)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk
+iPhoneOS15.2.sdk
+/Users/paul/Library/Developer/Xcode/DerivedData/Snapyr-cuuzwaupefgfcgagioaeecmhosfs/Build/Intermediates.noindex/ArchiveIntermediates/Snapyr/IntermediateBuildFilesPath/Snapyr.build/Release-iphoneos/Snapyr.build/DerivedSources/Snapyr_vers.c
+/Users/paul/dev/snapyr/snapyr-ios-sdk
++[SnapyrSDK setupWithConfiguration:]
+___36+[SnapyrSDK setupWithConfiguration:]_block_invoke
+___copy_helper_block_e4_24s
+___destroy_helper_block_e4_24s
+-[SnapyrSDK initWithConfiguration:]
+-[SnapyrSDK dealloc]
+-[SnapyrSDK handleAppStateNotification:]
+-[SnapyrSDK _applicationDidFinishLaunchingWithOptions:]
+-[SnapyrSDK _applicationWillEnterForeground]
+-[SnapyrSDK _applicationDidEnterBackground]
+-[SnapyrSDK description]
+-[SnapyrSDK configuration]
+-[SnapyrSDK identify:]
+-[SnapyrSDK identify:traits:]
+-[SnapyrSDK identify:traits:options:]
+-[SnapyrSDK track:]
+-[SnapyrSDK track:properties:]
+-[SnapyrSDK track:properties:options:]
+-[SnapyrSDK setPushNotificationToken:]
+-[SnapyrSDK pushNotificationReceived:]
+-[SnapyrSDK pushNotificationTapped:]
+-[SnapyrSDK screen:]
+-[SnapyrSDK screen:category:]
+-[SnapyrSDK screen:properties:]
+-[SnapyrSDK screen:category:properties:]
+-[SnapyrSDK screen:properties:options:]
+-[SnapyrSDK screen:category:properties:options:]
+-[SnapyrSDK group:]
+-[SnapyrSDK group:traits:]
+-[SnapyrSDK group:traits:options:]
+-[SnapyrSDK alias:]
+-[SnapyrSDK alias:options:]
+-[SnapyrSDK trackPushNotification:fromLaunch:]
+-[SnapyrSDK receivedRemoteNotification:]
+-[SnapyrSDK failedToRegisterForRemoteNotificationsWithError:]
+-[SnapyrSDK registeredForRemoteNotificationsWithDeviceToken:]
+-[SnapyrSDK handleActionWithIdentifier:forRemoteNotification:]
+-[SnapyrSDK continueUserActivity:]
+-[SnapyrSDK openURL:options:]
+-[SnapyrSDK reset]
+-[SnapyrSDK flush]
+-[SnapyrSDK enable]
+-[SnapyrSDK disable]
+-[SnapyrSDK getAnonymousId]
+-[SnapyrSDK getDeviceToken]
+-[SnapyrSDK bundledIntegrations]
+-[SnapyrSDK refreshSettings]
++[SnapyrSDK sharedSDK]
++[SnapyrSDK debug:]
++[SnapyrSDK version]
+-[SnapyrSDK run:payload:]
+___25-[SnapyrSDK run:payload:]_block_invoke
+___copy_helper_block_e4_20s
+___destroy_helper_block_e4_20s
+-[SnapyrSDK enabled]
+-[SnapyrSDK setEnabled:]
+-[SnapyrSDK oneTimeConfiguration]
+-[SnapyrSDK setOneTimeConfiguration:]
+-[SnapyrSDK storeKitTracker]
+-[SnapyrSDK setStoreKitTracker:]
+-[SnapyrSDK integrationsManager]
+-[SnapyrSDK setIntegrationsManager:]
+-[SnapyrSDK runner]
+-[SnapyrSDK setRunner:]
+-[SnapyrSDK .cxx_destruct]
+___sharedInstance
+_setupWithConfiguration:.onceToken
+_OBJC_SELECTOR_REFERENCES_
+___block_descriptor_28_e4_24s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.2
+_OBJC_SELECTOR_REFERENCES_.4
+_OBJC_SELECTOR_REFERENCES_.6
+_OBJC_CLASSLIST_REFERENCES_$_
+_OBJC_SELECTOR_REFERENCES_.8
+_OBJC_SELECTOR_REFERENCES_.10
+_OBJC_CLASSLIST_REFERENCES_$_.11
+_OBJC_SELECTOR_REFERENCES_.13
+_OBJC_SELECTOR_REFERENCES_.15
+_OBJC_SELECTOR_REFERENCES_.17
+_OBJC_SELECTOR_REFERENCES_.19
+_OBJC_SELECTOR_REFERENCES_.21
+_OBJC_SELECTOR_REFERENCES_.23
+_OBJC_CLASSLIST_REFERENCES_$_.24
+_OBJC_SELECTOR_REFERENCES_.26
+_OBJC_CLASSLIST_REFERENCES_$_.27
+_OBJC_SELECTOR_REFERENCES_.29
+_OBJC_SELECTOR_REFERENCES_.31
+_OBJC_SELECTOR_REFERENCES_.33
+_OBJC_SELECTOR_REFERENCES_.35
+_OBJC_SELECTOR_REFERENCES_.37
+_OBJC_CLASSLIST_REFERENCES_$_.38
+_OBJC_SELECTOR_REFERENCES_.40
+_OBJC_SELECTOR_REFERENCES_.42
+_OBJC_CLASSLIST_REFERENCES_$_.43
+_OBJC_SELECTOR_REFERENCES_.45
+_OBJC_SELECTOR_REFERENCES_.47
+_OBJC_SELECTOR_REFERENCES_.49
+_OBJC_SELECTOR_REFERENCES_.51
+_OBJC_SELECTOR_REFERENCES_.53
+_OBJC_CLASSLIST_REFERENCES_$_.54
+_OBJC_SELECTOR_REFERENCES_.56
+_OBJC_SELECTOR_REFERENCES_.58
+_OBJC_SELECTOR_REFERENCES_.60
+_OBJC_SELECTOR_REFERENCES_.62
+_OBJC_SELECTOR_REFERENCES_.64
+_OBJC_SELECTOR_REFERENCES_.66
+_OBJC_CLASSLIST_REFERENCES_$_.72
+_OBJC_SELECTOR_REFERENCES_.74
+_OBJC_SELECTOR_REFERENCES_.76
+_OBJC_SELECTOR_REFERENCES_.78
+_OBJC_SELECTOR_REFERENCES_.80
+_OBJC_SELECTOR_REFERENCES_.82
+_OBJC_SELECTOR_REFERENCES_.84
+_OBJC_SELECTOR_REFERENCES_.86
+_OBJC_SELECTOR_REFERENCES_.88
+_OBJC_SELECTOR_REFERENCES_.90
+_OBJC_SELECTOR_REFERENCES_.92
+_OBJC_CLASSLIST_REFERENCES_$_.93
+_OBJC_SELECTOR_REFERENCES_.95
+_OBJC_SELECTOR_REFERENCES_.97
+_OBJC_CLASSLIST_REFERENCES_$_.98
+_OBJC_SELECTOR_REFERENCES_.100
+_OBJC_SELECTOR_REFERENCES_.102
+_OBJC_SELECTOR_REFERENCES_.104
+_OBJC_SELECTOR_REFERENCES_.106
+_OBJC_SELECTOR_REFERENCES_.108
+_OBJC_CLASSLIST_REFERENCES_$_.109
+_OBJC_SELECTOR_REFERENCES_.111
+_OBJC_SELECTOR_REFERENCES_.113
+_OBJC_CLASSLIST_REFERENCES_$_.126
+_OBJC_SELECTOR_REFERENCES_.128
+_OBJC_SELECTOR_REFERENCES_.130
+_OBJC_SELECTOR_REFERENCES_.142
+_OBJC_SELECTOR_REFERENCES_.148
+_OBJC_SELECTOR_REFERENCES_.152
+_OBJC_CLASSLIST_REFERENCES_$_.153
+_OBJC_SELECTOR_REFERENCES_.157
+_OBJC_SELECTOR_REFERENCES_.161
+_OBJC_SELECTOR_REFERENCES_.163
+_OBJC_SELECTOR_REFERENCES_.165
+_OBJC_SELECTOR_REFERENCES_.169
+_OBJC_SELECTOR_REFERENCES_.171
+_OBJC_SELECTOR_REFERENCES_.173
+_OBJC_SELECTOR_REFERENCES_.175
+_OBJC_CLASSLIST_REFERENCES_$_.176
+_OBJC_SELECTOR_REFERENCES_.178
+_OBJC_SELECTOR_REFERENCES_.182
+_OBJC_SELECTOR_REFERENCES_.184
+_OBJC_SELECTOR_REFERENCES_.186
+_OBJC_CLASSLIST_REFERENCES_$_.187
+_OBJC_SELECTOR_REFERENCES_.193
+_OBJC_SELECTOR_REFERENCES_.195
+_OBJC_SELECTOR_REFERENCES_.197
+_OBJC_SELECTOR_REFERENCES_.199
+_OBJC_SELECTOR_REFERENCES_.201
+_OBJC_SELECTOR_REFERENCES_.207
+_OBJC_SELECTOR_REFERENCES_.209
+_OBJC_CLASSLIST_REFERENCES_$_.210
+_OBJC_SELECTOR_REFERENCES_.212
+_OBJC_SELECTOR_REFERENCES_.214
+_OBJC_SELECTOR_REFERENCES_.218
+_OBJC_SELECTOR_REFERENCES_.226
+_OBJC_CLASSLIST_REFERENCES_$_.227
+_OBJC_SELECTOR_REFERENCES_.229
+_OBJC_SELECTOR_REFERENCES_.231
+_OBJC_CLASSLIST_REFERENCES_$_.232
+_OBJC_SELECTOR_REFERENCES_.234
+_OBJC_SELECTOR_REFERENCES_.236
+_OBJC_CLASSLIST_REFERENCES_$_.237
+_OBJC_SELECTOR_REFERENCES_.239
+_OBJC_CLASSLIST_REFERENCES_$_.244
+_OBJC_SELECTOR_REFERENCES_.246
+_OBJC_SELECTOR_REFERENCES_.248
+_OBJC_SELECTOR_REFERENCES_.250
+_OBJC_CLASSLIST_REFERENCES_$_.251
+_OBJC_SELECTOR_REFERENCES_.253
+_OBJC_SELECTOR_REFERENCES_.255
+_OBJC_SELECTOR_REFERENCES_.257
+_OBJC_SELECTOR_REFERENCES_.259
+_OBJC_SELECTOR_REFERENCES_.261
+_OBJC_SELECTOR_REFERENCES_.263
+_OBJC_SELECTOR_REFERENCES_.265
+_OBJC_SELECTOR_REFERENCES_.267
+_OBJC_CLASSLIST_REFERENCES_$_.270
+_OBJC_SELECTOR_REFERENCES_.272
+_OBJC_SELECTOR_REFERENCES_.274
+_OBJC_CLASSLIST_REFERENCES_$_.277
+_OBJC_CLASSLIST_REFERENCES_$_.278
+_OBJC_SELECTOR_REFERENCES_.280
+_OBJC_SELECTOR_REFERENCES_.282
+_OBJC_SELECTOR_REFERENCES_.284
+_OBJC_SELECTOR_REFERENCES_.286
+_OBJC_SELECTOR_REFERENCES_.288
+_OBJC_SELECTOR_REFERENCES_.290
+_OBJC_SELECTOR_REFERENCES_.294
+_OBJC_SELECTOR_REFERENCES_.296
+_OBJC_SELECTOR_REFERENCES_.298
+_OBJC_CLASSLIST_REFERENCES_$_.299
+_OBJC_SELECTOR_REFERENCES_.301
+_OBJC_SELECTOR_REFERENCES_.303
+_OBJC_CLASSLIST_REFERENCES_$_.304
+_OBJC_SELECTOR_REFERENCES_.306
+_OBJC_SELECTOR_REFERENCES_.308
+_OBJC_SELECTOR_REFERENCES_.310
+_OBJC_SELECTOR_REFERENCES_.312
+_OBJC_SELECTOR_REFERENCES_.314
+___block_descriptor_28_e4_20s_e31_v8?0"<SnapyrMutableContext>"4l
+_OBJC_SELECTOR_REFERENCES_.317
+_OBJC_SELECTOR_REFERENCES_.319
+_OBJC_SELECTOR_REFERENCES_.321
+__OBJC_$_CLASS_METHODS_SnapyrSDK
+__OBJC_METACLASS_RO_$_SnapyrSDK
+__OBJC_$_INSTANCE_METHODS_SnapyrSDK
+_OBJC_IVAR_$_SnapyrSDK._enabled
+_OBJC_IVAR_$_SnapyrSDK._oneTimeConfiguration
+_OBJC_IVAR_$_SnapyrSDK._storeKitTracker
+_OBJC_IVAR_$_SnapyrSDK._integrationsManager
+_OBJC_IVAR_$_SnapyrSDK._runner
+__OBJC_$_INSTANCE_VARIABLES_SnapyrSDK
+__OBJC_$_PROP_LIST_SnapyrSDK
+__OBJC_CLASS_RO_$_SnapyrSDK
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Classes/SnapyrSDK.m
+Snapyr/Classes/SnapyrSDK.m
+__destroy_helper_block_e4_20s
+__copy_helper_block_e4_20s
+__25-[SnapyrSDK run:payload:]_block_invoke
+__destroy_helper_block_e4_24s
+__copy_helper_block_e4_24s
+__36+[SnapyrSDK setupWithConfiguration:]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/usr/include/dispatch/once.h
+-[SnapyrScreenPayload initWithName:category:properties:context:integrations:]
+-[SnapyrScreenPayload name]
+-[SnapyrScreenPayload category]
+-[SnapyrScreenPayload properties]
+-[SnapyrScreenPayload .cxx_destruct]
+_OBJC_IVAR_$_SnapyrScreenPayload._name
+_OBJC_IVAR_$_SnapyrScreenPayload._category
+_OBJC_IVAR_$_SnapyrScreenPayload._properties
+__OBJC_METACLASS_RO_$_SnapyrScreenPayload
+__OBJC_$_INSTANCE_METHODS_SnapyrScreenPayload
+__OBJC_$_INSTANCE_VARIABLES_SnapyrScreenPayload
+__OBJC_$_PROP_LIST_SnapyrScreenPayload
+__OBJC_CLASS_RO_$_SnapyrScreenPayload
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Classes/SnapyrScreenPayload.m
+Snapyr/Classes/SnapyrScreenPayload.m
+Snapyr/Classes/SnapyrScreenPayload.h
+-[SnapyrIdentifyPayload initWithUserId:anonymousId:traits:context:integrations:]
+-[SnapyrIdentifyPayload traits]
+-[SnapyrIdentifyPayload .cxx_destruct]
+_OBJC_IVAR_$_SnapyrIdentifyPayload._traits
+__OBJC_METACLASS_RO_$_SnapyrIdentifyPayload
+__OBJC_$_INSTANCE_METHODS_SnapyrIdentifyPayload
+__OBJC_$_INSTANCE_VARIABLES_SnapyrIdentifyPayload
+__OBJC_$_PROP_LIST_SnapyrIdentifyPayload
+__OBJC_CLASS_RO_$_SnapyrIdentifyPayload
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Classes/SnapyrIdentifyPayload.m
+Snapyr/Classes/SnapyrIdentifyPayload.m
+Snapyr/Classes/SnapyrIdentifyPayload.h
+-[SnapyrSnapyrIntegrationFactory initWithHTTPClient:fileStorage:userDefaultsStorage:]
+-[SnapyrSnapyrIntegrationFactory createWithSettings:forSDK:]
+-[SnapyrSnapyrIntegrationFactory key]
+-[SnapyrSnapyrIntegrationFactory client]
+-[SnapyrSnapyrIntegrationFactory setClient:]
+-[SnapyrSnapyrIntegrationFactory userDefaultsStorage]
+-[SnapyrSnapyrIntegrationFactory setUserDefaultsStorage:]
+-[SnapyrSnapyrIntegrationFactory fileStorage]
+-[SnapyrSnapyrIntegrationFactory setFileStorage:]
+-[SnapyrSnapyrIntegrationFactory .cxx_destruct]
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SnapyrIntegrationFactory
+__OBJC_$_PROTOCOL_METHOD_TYPES_SnapyrIntegrationFactory
+__OBJC_PROTOCOL_$_SnapyrIntegrationFactory
+__OBJC_LABEL_PROTOCOL_$_SnapyrIntegrationFactory
+__OBJC_CLASS_PROTOCOLS_$_SnapyrSnapyrIntegrationFactory
+__OBJC_METACLASS_RO_$_SnapyrSnapyrIntegrationFactory
+__OBJC_$_INSTANCE_METHODS_SnapyrSnapyrIntegrationFactory
+_OBJC_IVAR_$_SnapyrSnapyrIntegrationFactory._client
+_OBJC_IVAR_$_SnapyrSnapyrIntegrationFactory._userDefaultsStorage
+_OBJC_IVAR_$_SnapyrSnapyrIntegrationFactory._fileStorage
+__OBJC_$_INSTANCE_VARIABLES_SnapyrSnapyrIntegrationFactory
+__OBJC_$_PROP_LIST_SnapyrSnapyrIntegrationFactory
+__OBJC_CLASS_RO_$_SnapyrSnapyrIntegrationFactory
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Classes/SnapyrSnapyrIntegrationFactory.m
+Snapyr/Classes/SnapyrSnapyrIntegrationFactory.m
+Snapyr/Classes/SnapyrSnapyrIntegrationFactory.h
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Internal/NSViewController+SnapyrScreen.m
+-[SnapyrTrackPayload initWithEvent:properties:context:integrations:]
+-[SnapyrTrackPayload event]
+-[SnapyrTrackPayload properties]
+-[SnapyrTrackPayload .cxx_destruct]
+_OBJC_IVAR_$_SnapyrTrackPayload._event
+_OBJC_IVAR_$_SnapyrTrackPayload._properties
+__OBJC_METACLASS_RO_$_SnapyrTrackPayload
+__OBJC_$_INSTANCE_METHODS_SnapyrTrackPayload
+__OBJC_$_INSTANCE_VARIABLES_SnapyrTrackPayload
+__OBJC_$_PROP_LIST_SnapyrTrackPayload
+__OBJC_CLASS_RO_$_SnapyrTrackPayload
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Classes/SnapyrTrackPayload.m
+Snapyr/Classes/SnapyrTrackPayload.m
+Snapyr/Classes/SnapyrTrackPayload.h
+-[SnapyrAES256Crypto initWithPassword:salt:iv:]
+-[SnapyrAES256Crypto initWithPassword:]
+-[SnapyrAES256Crypto aesKey]
+-[SnapyrAES256Crypto encrypt:]
+-[SnapyrAES256Crypto decrypt:]
++[SnapyrAES256Crypto randomDataOfLength:]
++[SnapyrAES256Crypto AESKeyForPassword:salt:]
+-[SnapyrAES256Crypto password]
+-[SnapyrAES256Crypto salt]
+-[SnapyrAES256Crypto iv]
+-[SnapyrAES256Crypto .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.12
+_OBJC_CLASSLIST_REFERENCES_$_.13
+_OBJC_SELECTOR_REFERENCES_.25
+_OBJC_SELECTOR_REFERENCES_.27
+_OBJC_CLASSLIST_REFERENCES_$_.28
+_OBJC_SELECTOR_REFERENCES_.30
+_OBJC_SELECTOR_REFERENCES_.38
+__OBJC_$_CLASS_METHODS_SnapyrAES256Crypto
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+__OBJC_$_PROP_LIST_NSObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_$_PROTOCOL_REFS_SnapyrCrypto
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SnapyrCrypto
+__OBJC_$_PROTOCOL_METHOD_TYPES_SnapyrCrypto
+__OBJC_PROTOCOL_$_SnapyrCrypto
+__OBJC_LABEL_PROTOCOL_$_SnapyrCrypto
+__OBJC_CLASS_PROTOCOLS_$_SnapyrAES256Crypto
+__OBJC_METACLASS_RO_$_SnapyrAES256Crypto
+__OBJC_$_INSTANCE_METHODS_SnapyrAES256Crypto
+_OBJC_IVAR_$_SnapyrAES256Crypto._password
+_OBJC_IVAR_$_SnapyrAES256Crypto._salt
+_OBJC_IVAR_$_SnapyrAES256Crypto._iv
+__OBJC_$_INSTANCE_VARIABLES_SnapyrAES256Crypto
+__OBJC_$_PROP_LIST_SnapyrAES256Crypto
+__OBJC_CLASS_RO_$_SnapyrAES256Crypto
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Internal/SnapyrAES256Crypto.m
+Snapyr/Internal/SnapyrAES256Crypto.m
+Snapyr/Internal/SnapyrAES256Crypto.h
++[SnapyrHTTPClient defaultRequestFactory]
+___41+[SnapyrHTTPClient defaultRequestFactory]_block_invoke
++[SnapyrHTTPClient authorizationHeader:]
+-[SnapyrHTTPClient initWithRequestFactory:configuration:]
+-[SnapyrHTTPClient sessionForWriteKey:]
+-[SnapyrHTTPClient dealloc]
+-[SnapyrHTTPClient upload:forWriteKey:completionHandler:]
+___57-[SnapyrHTTPClient upload:forWriteKey:completionHandler:]_block_invoke
+___copy_helper_block_e4_20b24s
+___destroy_helper_block_e4_20s24s
+-[SnapyrHTTPClient settingsForWriteKey:completionHandler:]
+___58-[SnapyrHTTPClient settingsForWriteKey:completionHandler:]_block_invoke
+-[SnapyrHTTPClient requestFactory]
+-[SnapyrHTTPClient setRequestFactory:]
+-[SnapyrHTTPClient sessionsByWriteKey]
+-[SnapyrHTTPClient genericSession]
+-[SnapyrHTTPClient httpSessionDelegate]
+-[SnapyrHTTPClient setHttpSessionDelegate:]
+-[SnapyrHTTPClient configuration]
+-[SnapyrHTTPClient setConfiguration:]
+-[SnapyrHTTPClient .cxx_destruct]
+___block_descriptor_20_e35_"NSMutableURLRequest"8?0"NSURL"4l
+___block_literal_global
+_OBJC_SELECTOR_REFERENCES_.7
+_OBJC_SELECTOR_REFERENCES_.9
+_OBJC_SELECTOR_REFERENCES_.11
+_OBJC_CLASSLIST_REFERENCES_$_.14
+_OBJC_SELECTOR_REFERENCES_.16
+_OBJC_SELECTOR_REFERENCES_.18
+_OBJC_SELECTOR_REFERENCES_.20
+_OBJC_CLASSLIST_REFERENCES_$_.21
+_OBJC_CLASSLIST_REFERENCES_$_.33
+_OBJC_CLASSLIST_REFERENCES_$_.36
+_OBJC_CLASSLIST_REFERENCES_$_.41
+_OBJC_SELECTOR_REFERENCES_.43
+_OBJC_CLASSLIST_REFERENCES_$_.46
+_OBJC_SELECTOR_REFERENCES_.48
+_OBJC_SELECTOR_REFERENCES_.50
+_OBJC_SELECTOR_REFERENCES_.52
+_OBJC_SELECTOR_REFERENCES_.68
+_OBJC_SELECTOR_REFERENCES_.70
+_OBJC_SELECTOR_REFERENCES_.72
+_OBJC_CLASSLIST_REFERENCES_$_.83
+_OBJC_SELECTOR_REFERENCES_.85
+_OBJC_SELECTOR_REFERENCES_.87
+_OBJC_SELECTOR_REFERENCES_.89
+_OBJC_SELECTOR_REFERENCES_.93
+_OBJC_SELECTOR_REFERENCES_.101
+_OBJC_CLASSLIST_REFERENCES_$_.102
+_OBJC_SELECTOR_REFERENCES_.114
+_OBJC_SELECTOR_REFERENCES_.122
+___block_descriptor_28_e4_20bs24s_e45_v16?0"NSData"4"NSURLResponse"8"NSError"12l
+_OBJC_SELECTOR_REFERENCES_.129
+_OBJC_SELECTOR_REFERENCES_.131
+_OBJC_CLASSLIST_REFERENCES_$_.132
+_OBJC_SELECTOR_REFERENCES_.136
+_OBJC_SELECTOR_REFERENCES_.150
+__OBJC_$_CLASS_METHODS_SnapyrHTTPClient
+__OBJC_METACLASS_RO_$_SnapyrHTTPClient
+__OBJC_$_INSTANCE_METHODS_SnapyrHTTPClient
+_OBJC_IVAR_$_SnapyrHTTPClient._requestFactory
+_OBJC_IVAR_$_SnapyrHTTPClient._sessionsByWriteKey
+_OBJC_IVAR_$_SnapyrHTTPClient._genericSession
+_OBJC_IVAR_$_SnapyrHTTPClient._httpSessionDelegate
+_OBJC_IVAR_$_SnapyrHTTPClient._configuration
+__OBJC_$_INSTANCE_VARIABLES_SnapyrHTTPClient
+__OBJC_$_PROP_LIST_SnapyrHTTPClient
+__OBJC_CLASS_RO_$_SnapyrHTTPClient
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Classes/SnapyrHTTPClient.m
+Snapyr/Classes/SnapyrHTTPClient.m
+Snapyr/Classes/SnapyrHTTPClient.h
+__58-[SnapyrHTTPClient settingsForWriteKey:completionHandler:]_block_invoke
+__destroy_helper_block_e4_20s24s
+__copy_helper_block_e4_20b24s
+__57-[SnapyrHTTPClient upload:forWriteKey:completionHandler:]_block_invoke
+__41+[SnapyrHTTPClient defaultRequestFactory]_block_invoke
+-[SnapyrWebhookIntegration initWithSDK:httpClient:webhookUrl:name:]
+-[SnapyrWebhookIntegration sendPayloadToWebhook:]
+___49-[SnapyrWebhookIntegration sendPayloadToWebhook:]_block_invoke
+-[SnapyrWebhookIntegration integrationsDictionary:]
+-[SnapyrWebhookIntegration enqueue:dictionary:context:integrations:]
+___68-[SnapyrWebhookIntegration enqueue:dictionary:context:integrations:]_block_invoke
+___copy_helper_block_e4_20s24s28s
+___destroy_helper_block_e4_20s24s28s
+-[SnapyrWebhookIntegration dispatchBackground:]
+-[SnapyrWebhookIntegration userId]
+-[SnapyrWebhookIntegration identify:]
+-[SnapyrWebhookIntegration track:]
+-[SnapyrWebhookIntegration screen:]
+-[SnapyrWebhookIntegration group:]
+-[SnapyrWebhookIntegration alias:]
+-[SnapyrWebhookIntegration client]
+-[SnapyrWebhookIntegration setClient:]
+-[SnapyrWebhookIntegration webhookUrl]
+-[SnapyrWebhookIntegration setWebhookUrl:]
+-[SnapyrWebhookIntegration name]
+-[SnapyrWebhookIntegration setName:]
+-[SnapyrWebhookIntegration sdk]
+-[SnapyrWebhookIntegration setSdk:]
+-[SnapyrWebhookIntegration serialQueue]
+-[SnapyrWebhookIntegration setSerialQueue:]
+-[SnapyrWebhookIntegration .cxx_destruct]
+-[SnapyrWebhookIntegrationFactory initWithName:webhookUrl:]
+-[SnapyrWebhookIntegrationFactory createWithSettings:forSDK:]
+-[SnapyrWebhookIntegrationFactory key]
+-[SnapyrWebhookIntegrationFactory name]
+-[SnapyrWebhookIntegrationFactory setName:]
+-[SnapyrWebhookIntegrationFactory webhookUrl]
+-[SnapyrWebhookIntegrationFactory setWebhookUrl:]
+-[SnapyrWebhookIntegrationFactory .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.20
+_OBJC_SELECTOR_REFERENCES_.22
+___block_descriptor_20_e45_v16?0"NSData"4"NSURLResponse"8"NSError"12l
+_OBJC_SELECTOR_REFERENCES_.39
+_OBJC_SELECTOR_REFERENCES_.41
+_OBJC_CLASSLIST_REFERENCES_$_.65
+_OBJC_SELECTOR_REFERENCES_.67
+_OBJC_SELECTOR_REFERENCES_.69
+_OBJC_SELECTOR_REFERENCES_.71
+_OBJC_SELECTOR_REFERENCES_.75
+_OBJC_SELECTOR_REFERENCES_.77
+_OBJC_SELECTOR_REFERENCES_.81
+_OBJC_SELECTOR_REFERENCES_.91
+___block_descriptor_32_e4_20s24s28s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.94
+_OBJC_CLASSLIST_REFERENCES_$_.95
+_OBJC_SELECTOR_REFERENCES_.99
+_OBJC_SELECTOR_REFERENCES_.103
+_OBJC_SELECTOR_REFERENCES_.107
+_OBJC_SELECTOR_REFERENCES_.115
+_OBJC_SELECTOR_REFERENCES_.117
+_OBJC_SELECTOR_REFERENCES_.119
+_OBJC_SELECTOR_REFERENCES_.123
+_OBJC_SELECTOR_REFERENCES_.133
+_OBJC_SELECTOR_REFERENCES_.139
+__OBJC_$_PROTOCOL_REFS_SnapyrIntegration
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SnapyrIntegration
+__OBJC_$_PROTOCOL_METHOD_TYPES_SnapyrIntegration
+__OBJC_PROTOCOL_$_SnapyrIntegration
+__OBJC_LABEL_PROTOCOL_$_SnapyrIntegration
+__OBJC_CLASS_PROTOCOLS_$_SnapyrWebhookIntegration
+__OBJC_METACLASS_RO_$_SnapyrWebhookIntegration
+__OBJC_$_INSTANCE_METHODS_SnapyrWebhookIntegration
+_OBJC_IVAR_$_SnapyrWebhookIntegration._client
+_OBJC_IVAR_$_SnapyrWebhookIntegration._webhookUrl
+_OBJC_IVAR_$_SnapyrWebhookIntegration._name
+_OBJC_IVAR_$_SnapyrWebhookIntegration._sdk
+_OBJC_IVAR_$_SnapyrWebhookIntegration._serialQueue
+__OBJC_$_INSTANCE_VARIABLES_SnapyrWebhookIntegration
+__OBJC_$_PROP_LIST_SnapyrWebhookIntegration
+__OBJC_CLASS_RO_$_SnapyrWebhookIntegration
+_OBJC_CLASSLIST_REFERENCES_$_.250
+_OBJC_SELECTOR_REFERENCES_.252
+_OBJC_SELECTOR_REFERENCES_.254
+_OBJC_CLASSLIST_REFERENCES_$_.255
+_OBJC_SELECTOR_REFERENCES_.256
+_OBJC_CLASSLIST_REFERENCES_$_.257
+__OBJC_CLASS_PROTOCOLS_$_SnapyrWebhookIntegrationFactory
+__OBJC_METACLASS_RO_$_SnapyrWebhookIntegrationFactory
+__OBJC_$_INSTANCE_METHODS_SnapyrWebhookIntegrationFactory
+_OBJC_IVAR_$_SnapyrWebhookIntegrationFactory._name
+_OBJC_IVAR_$_SnapyrWebhookIntegrationFactory._webhookUrl
+__OBJC_$_INSTANCE_VARIABLES_SnapyrWebhookIntegrationFactory
+__OBJC_$_PROP_LIST_SnapyrWebhookIntegrationFactory
+__OBJC_CLASS_RO_$_SnapyrWebhookIntegrationFactory
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Classes/SnapyrWebhookIntegration.m
+Snapyr/Classes/SnapyrWebhookIntegration.m
+Snapyr/Classes/SnapyrWebhookIntegration.h
+__destroy_helper_block_e4_20s24s28s
+__copy_helper_block_e4_20s24s28s
+__68-[SnapyrWebhookIntegration enqueue:dictionary:context:integrations:]_block_invoke
+__49-[SnapyrWebhookIntegration sendPayloadToWebhook:]_block_invoke
+-[SnapyrSnapyrIntegration initWithSDK:httpClient:fileStorage:userDefaultsStorage:settings:]
+___91-[SnapyrSnapyrIntegration initWithSDK:httpClient:fileStorage:userDefaultsStorage:settings:]_block_invoke
+-[SnapyrSnapyrIntegration dispatchBackground:]
+-[SnapyrSnapyrIntegration dispatchBackgroundAndWait:]
+-[SnapyrSnapyrIntegration beginBackgroundTask]
+___46-[SnapyrSnapyrIntegration beginBackgroundTask]_block_invoke
+___46-[SnapyrSnapyrIntegration beginBackgroundTask]_block_invoke_2
+-[SnapyrSnapyrIntegration endBackgroundTask]
+___44-[SnapyrSnapyrIntegration endBackgroundTask]_block_invoke
+-[SnapyrSnapyrIntegration description]
+-[SnapyrSnapyrIntegration userId]
+-[SnapyrSnapyrIntegration setUserId:]
+___37-[SnapyrSnapyrIntegration setUserId:]_block_invoke
+___copy_helper_block_e4_20s24s
+-[SnapyrSnapyrIntegration traits]
+-[SnapyrSnapyrIntegration setTraits:]
+___37-[SnapyrSnapyrIntegration setTraits:]_block_invoke
+-[SnapyrSnapyrIntegration identify:]
+___36-[SnapyrSnapyrIntegration identify:]_block_invoke
+-[SnapyrSnapyrIntegration track:]
+-[SnapyrSnapyrIntegration screen:]
+-[SnapyrSnapyrIntegration group:]
+-[SnapyrSnapyrIntegration alias:]
+-[SnapyrSnapyrIntegration integrationsDictionary:]
+-[SnapyrSnapyrIntegration enqueueAction:dictionary:context:integrations:]
+___73-[SnapyrSnapyrIntegration enqueueAction:dictionary:context:integrations:]_block_invoke
+___copy_helper_block_e4_20s24s28s32s36s
+___destroy_helper_block_e4_20s24s28s32s36s
+-[SnapyrSnapyrIntegration queuePayload:]
+-[SnapyrSnapyrIntegration flush]
+-[SnapyrSnapyrIntegration flushWithMaxSize:]
+___44-[SnapyrSnapyrIntegration flushWithMaxSize:]_block_invoke
+___44-[SnapyrSnapyrIntegration flushWithMaxSize:]_block_invoke.262
+___copy_helper_block_e4_20s24b
+-[SnapyrSnapyrIntegration flushQueueByLength]
+___45-[SnapyrSnapyrIntegration flushQueueByLength]_block_invoke
+-[SnapyrSnapyrIntegration reset]
+___32-[SnapyrSnapyrIntegration reset]_block_invoke
+-[SnapyrSnapyrIntegration notifyForName:userInfo:]
+___50-[SnapyrSnapyrIntegration notifyForName:userInfo:]_block_invoke
+-[SnapyrSnapyrIntegration sendData:]
+___36-[SnapyrSnapyrIntegration sendData:]_block_invoke
+___36-[SnapyrSnapyrIntegration sendData:]_block_invoke_2
+-[SnapyrSnapyrIntegration processResponseData:]
+-[SnapyrSnapyrIntegration handleEventActions:]
+___46-[SnapyrSnapyrIntegration handleEventActions:]_block_invoke
+-[SnapyrSnapyrIntegration applicationDidEnterBackground]
+-[SnapyrSnapyrIntegration applicationWillTerminate]
+___51-[SnapyrSnapyrIntegration applicationWillTerminate]_block_invoke
+-[SnapyrSnapyrIntegration queue]
+-[SnapyrSnapyrIntegration loadTraits]
+-[SnapyrSnapyrIntegration maxBatchSize]
+-[SnapyrSnapyrIntegration loadUserId]
+-[SnapyrSnapyrIntegration persistQueue]
+-[SnapyrSnapyrIntegration setQueue:]
+-[SnapyrSnapyrIntegration batchRequest]
+-[SnapyrSnapyrIntegration setBatchRequest:]
+-[SnapyrSnapyrIntegration reachability]
+-[SnapyrSnapyrIntegration setReachability:]
+-[SnapyrSnapyrIntegration flushTimer]
+-[SnapyrSnapyrIntegration setFlushTimer:]
+-[SnapyrSnapyrIntegration serialQueue]
+-[SnapyrSnapyrIntegration setSerialQueue:]
+-[SnapyrSnapyrIntegration backgroundTaskQueue]
+-[SnapyrSnapyrIntegration setBackgroundTaskQueue:]
+-[SnapyrSnapyrIntegration sdk]
+-[SnapyrSnapyrIntegration setSdk:]
+-[SnapyrSnapyrIntegration configuration]
+-[SnapyrSnapyrIntegration setConfiguration:]
+-[SnapyrSnapyrIntegration meta]
+-[SnapyrSnapyrIntegration setMeta:]
+-[SnapyrSnapyrIntegration referrer]
+-[SnapyrSnapyrIntegration setReferrer:]
+-[SnapyrSnapyrIntegration httpClient]
+-[SnapyrSnapyrIntegration setHttpClient:]
+-[SnapyrSnapyrIntegration fileStorage]
+-[SnapyrSnapyrIntegration setFileStorage:]
+-[SnapyrSnapyrIntegration userDefaultsStorage]
+-[SnapyrSnapyrIntegration setUserDefaultsStorage:]
+-[SnapyrSnapyrIntegration flushTaskID]
+-[SnapyrSnapyrIntegration setFlushTaskID:]
+-[SnapyrSnapyrIntegration .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.28
+_OBJC_SELECTOR_REFERENCES_.32
+_OBJC_SELECTOR_REFERENCES_.34
+_OBJC_SELECTOR_REFERENCES_.36
+_OBJC_SELECTOR_REFERENCES_.46
+_OBJC_SELECTOR_REFERENCES_.55
+___block_descriptor_20_e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.66
+_OBJC_CLASSLIST_REFERENCES_$_.75
+_OBJC_SELECTOR_REFERENCES_.79
+_OBJC_SELECTOR_REFERENCES_.83
+_OBJC_CLASSLIST_REFERENCES_$_.86
+_OBJC_SELECTOR_REFERENCES_.96
+_OBJC_SELECTOR_REFERENCES_.98
+___block_descriptor_24_e4_20s_e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.118
+_OBJC_SELECTOR_REFERENCES_.120
+_OBJC_SELECTOR_REFERENCES_.124
+_OBJC_SELECTOR_REFERENCES_.126
+___block_descriptor_28_e4_20s24s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.132
+_OBJC_SELECTOR_REFERENCES_.134
+_OBJC_CLASSLIST_REFERENCES_$_.137
+_OBJC_SELECTOR_REFERENCES_.143
+_OBJC_SELECTOR_REFERENCES_.145
+_OBJC_SELECTOR_REFERENCES_.149
+_OBJC_SELECTOR_REFERENCES_.155
+_OBJC_SELECTOR_REFERENCES_.159
+_OBJC_SELECTOR_REFERENCES_.177
+_OBJC_SELECTOR_REFERENCES_.183
+_OBJC_SELECTOR_REFERENCES_.189
+_OBJC_SELECTOR_REFERENCES_.203
+_OBJC_CLASSLIST_REFERENCES_$_.208
+_OBJC_SELECTOR_REFERENCES_.210
+_OBJC_SELECTOR_REFERENCES_.224
+_OBJC_SELECTOR_REFERENCES_.230
+___block_descriptor_40_e4_20s24s28s32s36s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.238
+_OBJC_SELECTOR_REFERENCES_.240
+_OBJC_SELECTOR_REFERENCES_.242
+_OBJC_SELECTOR_REFERENCES_.244
+___block_descriptor_28_e4_20s_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.266
+___block_descriptor_28_e4_20s24bs_e5_v4?0l
+_OBJC_SELECTOR_REFERENCES_.276
+_OBJC_SELECTOR_REFERENCES_.279
+_OBJC_SELECTOR_REFERENCES_.281
+_OBJC_CLASSLIST_REFERENCES_$_.284
+_OBJC_CLASSLIST_REFERENCES_$_.293
+_OBJC_SELECTOR_REFERENCES_.295
+_OBJC_SELECTOR_REFERENCES_.297
+_OBJC_SELECTOR_REFERENCES_.299
+___block_descriptor_33_e4_20s24s28s_e5_v4?0l
+___block_descriptor_28_e4_20s24s_e21_v16?0c4i8"NSData"12l
+_OBJC_CLASSLIST_REFERENCES_$_.313
+_OBJC_SELECTOR_REFERENCES_.315
+_OBJC_CLASSLIST_REFERENCES_$_.322
+_OBJC_SELECTOR_REFERENCES_.324
+_OBJC_SELECTOR_REFERENCES_.326
+_OBJC_CLASSLIST_REFERENCES_$_.327
+_OBJC_SELECTOR_REFERENCES_.329
+_OBJC_SELECTOR_REFERENCES_.331
+_OBJC_SELECTOR_REFERENCES_.335
+_OBJC_SELECTOR_REFERENCES_.337
+_OBJC_SELECTOR_REFERENCES_.339
+_OBJC_SELECTOR_REFERENCES_.341
+_OBJC_SELECTOR_REFERENCES_.343
+__OBJC_CLASS_PROTOCOLS_$_SnapyrSnapyrIntegration
+__OBJC_METACLASS_RO_$_SnapyrSnapyrIntegration
+__OBJC_$_INSTANCE_METHODS_SnapyrSnapyrIntegration
+_OBJC_IVAR_$_SnapyrSnapyrIntegration._queue
+_OBJC_IVAR_$_SnapyrSnapyrIntegration._batchRequest
+_OBJC_IVAR_$_SnapyrSnapyrIntegration._reachability
+_OBJC_IVAR_$_SnapyrSnapyrIntegration._flushTimer
+_OBJC_IVAR_$_SnapyrSnapyrIntegration._serialQueue
+_OBJC_IVAR_$_SnapyrSnapyrIntegration._backgroundTaskQueue
+_OBJC_IVAR_$_SnapyrSnapyrIntegration._sdk
+_OBJC_IVAR_$_SnapyrSnapyrIntegration._configuration
+_OBJC_IVAR_$_SnapyrSnapyrIntegration._meta
+_OBJC_IVAR_$_SnapyrSnapyrIntegration._referrer
+_OBJC_IVAR_$_SnapyrSnapyrIntegration._httpClient
+_OBJC_IVAR_$_SnapyrSnapyrIntegration._fileStorage
+_OBJC_IVAR_$_SnapyrSnapyrIntegration._userDefaultsStorage
+_OBJC_IVAR_$_SnapyrSnapyrIntegration._flushTaskID
+__OBJC_$_INSTANCE_VARIABLES_SnapyrSnapyrIntegration
+__OBJC_$_PROP_LIST_SnapyrSnapyrIntegration
+__OBJC_CLASS_RO_$_SnapyrSnapyrIntegration
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Classes/SnapyrSnapyrIntegration.m
+Snapyr/Classes/SnapyrSnapyrIntegration.m
+__51-[SnapyrSnapyrIntegration applicationWillTerminate]_block_invoke
+__46-[SnapyrSnapyrIntegration handleEventActions:]_block_invoke
+__36-[SnapyrSnapyrIntegration sendData:]_block_invoke_2
+__36-[SnapyrSnapyrIntegration sendData:]_block_invoke
+__50-[SnapyrSnapyrIntegration notifyForName:userInfo:]_block_invoke
+__32-[SnapyrSnapyrIntegration reset]_block_invoke
+__45-[SnapyrSnapyrIntegration flushQueueByLength]_block_invoke
+__copy_helper_block_e4_20s24b
+__44-[SnapyrSnapyrIntegration flushWithMaxSize:]_block_invoke.262
+__44-[SnapyrSnapyrIntegration flushWithMaxSize:]_block_invoke
+__destroy_helper_block_e4_20s24s28s32s36s
+__copy_helper_block_e4_20s24s28s32s36s
+__73-[SnapyrSnapyrIntegration enqueueAction:dictionary:context:integrations:]_block_invoke
+__36-[SnapyrSnapyrIntegration identify:]_block_invoke
+__37-[SnapyrSnapyrIntegration setTraits:]_block_invoke
+__copy_helper_block_e4_20s24s
+__37-[SnapyrSnapyrIntegration setUserId:]_block_invoke
+__44-[SnapyrSnapyrIntegration endBackgroundTask]_block_invoke
+__46-[SnapyrSnapyrIntegration beginBackgroundTask]_block_invoke_2
+__46-[SnapyrSnapyrIntegration beginBackgroundTask]_block_invoke
+__91-[SnapyrSnapyrIntegration initWithSDK:httpClient:fileStorage:userDefaultsStorage:settings:]_block_invoke
+-[SnapyrAliasPayload initWithNewId:context:integrations:]
+-[SnapyrAliasPayload theNewId]
+-[SnapyrAliasPayload .cxx_destruct]
+_OBJC_IVAR_$_SnapyrAliasPayload._theNewId
+__OBJC_METACLASS_RO_$_SnapyrAliasPayload
+__OBJC_$_INSTANCE_METHODS_SnapyrAliasPayload
+__OBJC_$_INSTANCE_VARIABLES_SnapyrAliasPayload
+__OBJC_$_PROP_LIST_SnapyrAliasPayload
+__OBJC_CLASS_RO_$_SnapyrAliasPayload
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Classes/SnapyrAliasPayload.m
+Snapyr/Classes/SnapyrAliasPayload.m
+Snapyr/Classes/SnapyrAliasPayload.h
+-[SnapyrPayload(Options) options]
+-[SnapyrIntegrationsManager initWithSDK:]
+-[SnapyrIntegrationsManager dealloc]
+-[SnapyrIntegrationsManager setCachedAnonymousId:]
+-[SnapyrIntegrationsManager cachedAnonymousId]
+-[SnapyrIntegrationsManager onAppForeground:]
+-[SnapyrIntegrationsManager handleAppStateNotification:]
+___56-[SnapyrIntegrationsManager handleAppStateNotification:]_block_invoke
+-[SnapyrIntegrationsManager description]
+-[SnapyrIntegrationsManager identify:]
+-[SnapyrIntegrationsManager track:]
+-[SnapyrIntegrationsManager screen:]
+-[SnapyrIntegrationsManager group:]
+-[SnapyrIntegrationsManager alias:]
+-[SnapyrIntegrationsManager receivedRemoteNotification:]
+-[SnapyrIntegrationsManager failedToRegisterForRemoteNotificationsWithError:]
+-[SnapyrIntegrationsManager registeredForRemoteNotificationsWithDeviceToken:]
+-[SnapyrIntegrationsManager handleActionWithIdentifier:forRemoteNotification:]
+-[SnapyrIntegrationsManager continueUserActivity:]
+-[SnapyrIntegrationsManager openURL:options:]
+-[SnapyrIntegrationsManager reset]
+-[SnapyrIntegrationsManager resetAnonymousId]
+-[SnapyrIntegrationsManager getAnonymousId]
+-[SnapyrIntegrationsManager loadOrGenerateAnonymousID:]
+-[SnapyrIntegrationsManager saveAnonymousId:]
+-[SnapyrIntegrationsManager flush]
+-[SnapyrIntegrationsManager cachedSettings]
+-[SnapyrIntegrationsManager setCachedSettings:]
+-[SnapyrIntegrationsManager middlewareForIntegrationKey:]
+-[SnapyrIntegrationsManager updateIntegrationsWithSettings:]
+___60-[SnapyrIntegrationsManager updateIntegrationsWithSettings:]_block_invoke
+-[SnapyrIntegrationsManager refreshSettings]
+___44-[SnapyrIntegrationsManager refreshSettings]_block_invoke
+___44-[SnapyrIntegrationsManager refreshSettings]_block_invoke_2
+___44-[SnapyrIntegrationsManager refreshSettings]_block_invoke_3
++[SnapyrIntegrationsManager isIntegration:enabledInOptions:]
++[SnapyrIntegrationsManager isTrackEvent:enabledForIntegration:inPlan:]
+-[SnapyrIntegrationsManager forwardSelector:arguments:options:]
+___63-[SnapyrIntegrationsManager forwardSelector:arguments:options:]_block_invoke
+-[SnapyrIntegrationsManager eventTypeFromSelector:]
+-[SnapyrIntegrationsManager invokeIntegration:key:selector:arguments:options:]
+___78-[SnapyrIntegrationsManager invokeIntegration:key:selector:arguments:options:]_block_invoke
+-[SnapyrIntegrationsManager invocationForSelector:arguments:]
+-[SnapyrIntegrationsManager queueSelector:arguments:options:]
+-[SnapyrIntegrationsManager flushMessageQueue]
+-[SnapyrIntegrationsManager callIntegrationsWithSelector:arguments:options:sync:]
+___81-[SnapyrIntegrationsManager callIntegrationsWithSelector:arguments:options:sync:]_block_invoke
+-[SnapyrIntegrationsManager integrations]
+-[SnapyrIntegrationsManager setIntegrations:]
+-[SnapyrIntegrationsManager sdk]
+-[SnapyrIntegrationsManager setSdk:]
+-[SnapyrIntegrationsManager configuration]
+-[SnapyrIntegrationsManager setConfiguration:]
+-[SnapyrIntegrationsManager serialQueue]
+-[SnapyrIntegrationsManager setSerialQueue:]
+-[SnapyrIntegrationsManager messageQueue]
+-[SnapyrIntegrationsManager setMessageQueue:]
+-[SnapyrIntegrationsManager factories]
+-[SnapyrIntegrationsManager setFactories:]
+-[SnapyrIntegrationsManager registeredIntegrations]
+-[SnapyrIntegrationsManager setRegisteredIntegrations:]
+-[SnapyrIntegrationsManager integrationMiddleware]
+-[SnapyrIntegrationsManager setIntegrationMiddleware:]
+-[SnapyrIntegrationsManager initialized]
+-[SnapyrIntegrationsManager setInitialized:]
+-[SnapyrIntegrationsManager httpClient]
+-[SnapyrIntegrationsManager setHttpClient:]
+-[SnapyrIntegrationsManager settingsRequest]
+-[SnapyrIntegrationsManager setSettingsRequest:]
+-[SnapyrIntegrationsManager userDefaultsStorage]
+-[SnapyrIntegrationsManager setUserDefaultsStorage:]
+-[SnapyrIntegrationsManager fileStorage]
+-[SnapyrIntegrationsManager setFileStorage:]
+-[SnapyrIntegrationsManager .cxx_destruct]
+-[SnapyrIntegrationsManager(SnapyrMiddleware) context:next:]
+_OBJC_SELECTOR_REFERENCES_.14
+__OBJC_$_CATEGORY_INSTANCE_METHODS_SnapyrPayload_$_Options
+__OBJC_$_PROP_LIST_SnapyrPayload_$_Options
+__OBJC_$_CATEGORY_SnapyrPayload_$_Options
+_OBJC_SELECTOR_REFERENCES_.24
+_OBJC_CLASSLIST_REFERENCES_$_.31
+_OBJC_CLASSLIST_REFERENCES_$_.39
+_OBJC_CLASSLIST_REFERENCES_$_.48
+_OBJC_SELECTOR_REFERENCES_.54
+_OBJC_CLASSLIST_REFERENCES_$_.63
+_OBJC_SELECTOR_REFERENCES_.65
+_OBJC_SELECTOR_REFERENCES_.73
+_OBJC_CLASSLIST_REFERENCES_$_.78
+_OBJC_CLASSLIST_REFERENCES_$_.89
+_OBJC_CLASSLIST_REFERENCES_$_.100
+_handleAppStateNotification:.selectorMapping
+_handleAppStateNotification:.selectorMappingOnce
+_OBJC_SELECTOR_REFERENCES_.121
+_OBJC_SELECTOR_REFERENCES_.125
+_OBJC_SELECTOR_REFERENCES_.127
+_OBJC_CLASSLIST_REFERENCES_$_.128
+_OBJC_CLASSLIST_REFERENCES_$_.135
+_OBJC_SELECTOR_REFERENCES_.137
+_OBJC_SELECTOR_REFERENCES_.141
+_OBJC_SELECTOR_REFERENCES_.147
+_OBJC_SELECTOR_REFERENCES_.160
+_OBJC_SELECTOR_REFERENCES_.162
+_OBJC_SELECTOR_REFERENCES_.166
+_OBJC_SELECTOR_REFERENCES_.168
+_OBJC_SELECTOR_REFERENCES_.170
+_OBJC_SELECTOR_REFERENCES_.172
+_OBJC_SELECTOR_REFERENCES_.174
+_OBJC_SELECTOR_REFERENCES_.176
+_OBJC_SELECTOR_REFERENCES_.180
+_OBJC_CLASSLIST_REFERENCES_$_.189
+_OBJC_SELECTOR_REFERENCES_.191
+_OBJC_CLASSLIST_REFERENCES_$_.204
+_OBJC_SELECTOR_REFERENCES_.206
+_OBJC_SELECTOR_REFERENCES_.208
+_OBJC_SELECTOR_REFERENCES_.216
+_OBJC_SELECTOR_REFERENCES_.220
+_OBJC_SELECTOR_REFERENCES_.222
+___block_descriptor_29_e4_20s24s_e5_v4?0l
+___block_descriptor_24_e4_20s_e24_v12?0c4"NSDictionary"8l
+_OBJC_SELECTOR_REFERENCES_.227
+_OBJC_CLASSLIST_REFERENCES_$_.228
+_OBJC_SELECTOR_REFERENCES_.232
+___block_descriptor_36_e4_20s24s28s_e45_v16?0"NSString"4"<SnapyrIntegration>"8^c12l
+_OBJC_SELECTOR_REFERENCES_.251
+_OBJC_SELECTOR_REFERENCES_.287
+_OBJC_SELECTOR_REFERENCES_.289
+_OBJC_SELECTOR_REFERENCES_.291
+_OBJC_CLASSLIST_REFERENCES_$_.300
+_OBJC_SELECTOR_REFERENCES_.302
+_OBJC_SELECTOR_REFERENCES_.304
+_OBJC_SELECTOR_REFERENCES_.309
+_OBJC_SELECTOR_REFERENCES_.311
+_OBJC_SELECTOR_REFERENCES_.313
+__OBJC_PROTOCOL_REFERENCE_$_SnapyrIntegration
+_OBJC_CLASSLIST_REFERENCES_$_.387
+_OBJC_SELECTOR_REFERENCES_.389
+_OBJC_CLASSLIST_REFERENCES_$_.390
+_OBJC_SELECTOR_REFERENCES_.392
+_OBJC_SELECTOR_REFERENCES_.394
+_OBJC_CLASSLIST_REFERENCES_$_.395
+_OBJC_SELECTOR_REFERENCES_.397
+_OBJC_SELECTOR_REFERENCES_.399
+_OBJC_SELECTOR_REFERENCES_.401
+_OBJC_SELECTOR_REFERENCES_.403
+_OBJC_SELECTOR_REFERENCES_.405
+___block_descriptor_36_e4_20s24s28s_e5_v4?0l
+__OBJC_$_CLASS_METHODS_SnapyrIntegrationsManager
+__OBJC_METACLASS_RO_$_SnapyrIntegrationsManager
+__OBJC_$_INSTANCE_METHODS_SnapyrIntegrationsManager
+_OBJC_IVAR_$_SnapyrIntegrationsManager._initialized
+_OBJC_IVAR_$_SnapyrIntegrationsManager._cachedSettings
+_OBJC_IVAR_$_SnapyrIntegrationsManager._integrations
+_OBJC_IVAR_$_SnapyrIntegrationsManager._sdk
+_OBJC_IVAR_$_SnapyrIntegrationsManager._configuration
+_OBJC_IVAR_$_SnapyrIntegrationsManager._serialQueue
+_OBJC_IVAR_$_SnapyrIntegrationsManager._messageQueue
+_OBJC_IVAR_$_SnapyrIntegrationsManager._factories
+_OBJC_IVAR_$_SnapyrIntegrationsManager._registeredIntegrations
+_OBJC_IVAR_$_SnapyrIntegrationsManager._integrationMiddleware
+_OBJC_IVAR_$_SnapyrIntegrationsManager._httpClient
+_OBJC_IVAR_$_SnapyrIntegrationsManager._settingsRequest
+_OBJC_IVAR_$_SnapyrIntegrationsManager._userDefaultsStorage
+_OBJC_IVAR_$_SnapyrIntegrationsManager._fileStorage
+__OBJC_$_INSTANCE_VARIABLES_SnapyrIntegrationsManager
+__OBJC_$_PROP_LIST_SnapyrIntegrationsManager
+__OBJC_CLASS_RO_$_SnapyrIntegrationsManager
+_OBJC_SELECTOR_REFERENCES_.481
+_OBJC_SELECTOR_REFERENCES_.482
+_OBJC_SELECTOR_REFERENCES_.483
+_OBJC_SELECTOR_REFERENCES_.484
+_OBJC_SELECTOR_REFERENCES_.485
+_OBJC_SELECTOR_REFERENCES_.486
+_OBJC_SELECTOR_REFERENCES_.487
+_OBJC_SELECTOR_REFERENCES_.488
+_OBJC_SELECTOR_REFERENCES_.489
+_OBJC_SELECTOR_REFERENCES_.491
+_OBJC_SELECTOR_REFERENCES_.492
+_OBJC_SELECTOR_REFERENCES_.494
+_OBJC_SELECTOR_REFERENCES_.495
+_OBJC_SELECTOR_REFERENCES_.497
+_OBJC_SELECTOR_REFERENCES_.498
+_OBJC_SELECTOR_REFERENCES_.500
+_OBJC_SELECTOR_REFERENCES_.501
+_OBJC_SELECTOR_REFERENCES_.503
+_OBJC_SELECTOR_REFERENCES_.504
+_OBJC_SELECTOR_REFERENCES_.506
+_OBJC_SELECTOR_REFERENCES_.507
+__OBJC_$_CATEGORY_INSTANCE_METHODS_SnapyrIntegrationsManager_$_SnapyrMiddleware
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SnapyrMiddleware
+__OBJC_$_PROTOCOL_METHOD_TYPES_SnapyrMiddleware
+__OBJC_PROTOCOL_$_SnapyrMiddleware
+__OBJC_LABEL_PROTOCOL_$_SnapyrMiddleware
+__OBJC_CATEGORY_PROTOCOLS_$_SnapyrIntegrationsManager_$_SnapyrMiddleware
+__OBJC_$_CATEGORY_SnapyrIntegrationsManager_$_SnapyrMiddleware
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Internal/SnapyrIntegrationsManager.m
+Snapyr/Internal/SnapyrIntegrationsManager.m
+Snapyr/Internal/SnapyrIntegrationsManager.h
+__81-[SnapyrIntegrationsManager callIntegrationsWithSelector:arguments:options:sync:]_block_invoke
+__78-[SnapyrIntegrationsManager invokeIntegration:key:selector:arguments:options:]_block_invoke
+__63-[SnapyrIntegrationsManager forwardSelector:arguments:options:]_block_invoke
+__44-[SnapyrIntegrationsManager refreshSettings]_block_invoke_3
+__44-[SnapyrIntegrationsManager refreshSettings]_block_invoke_2
+__44-[SnapyrIntegrationsManager refreshSettings]_block_invoke
+__60-[SnapyrIntegrationsManager updateIntegrationsWithSettings:]_block_invoke
+__56-[SnapyrIntegrationsManager handleAppStateNotification:]_block_invoke
+-[NSDate(SnapyrSerializable) serializeToAppropriateType]
+-[NSURL(SnapyrSerializable) serializeToAppropriateType]
+_kSDKLoggerShowLogs
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSDate_$_SnapyrSerializable
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SnapyrSerializable
+__OBJC_$_PROTOCOL_METHOD_TYPES_SnapyrSerializable
+__OBJC_PROTOCOL_$_SnapyrSerializable
+__OBJC_LABEL_PROTOCOL_$_SnapyrSerializable
+__OBJC_CATEGORY_PROTOCOLS_$_NSDate_$_SnapyrSerializable
+__OBJC_$_CATEGORY_NSDate_$_SnapyrSerializable
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSURL_$_SnapyrSerializable
+__OBJC_CATEGORY_PROTOCOLS_$_NSURL_$_SnapyrSerializable
+__OBJC_$_CATEGORY_NSURL_$_SnapyrSerializable
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Classes/SnapyrSDKUtils.m
+Snapyr/Classes/SnapyrSDKUtils.m
+SLog
+SnapyrSetShowDebugLogs
+-[SnapyrFileStorage initWithFolder:crypto:]
+-[SnapyrFileStorage removeKey:]
+-[SnapyrFileStorage resetAll]
+-[SnapyrFileStorage setData:forKey:]
+-[SnapyrFileStorage dataForKey:]
+-[SnapyrFileStorage dictionaryForKey:]
+-[SnapyrFileStorage setDictionary:forKey:]
+-[SnapyrFileStorage arrayForKey:]
+-[SnapyrFileStorage setArray:forKey:]
+-[SnapyrFileStorage stringForKey:]
+-[SnapyrFileStorage setString:forKey:]
++[SnapyrFileStorage applicationSupportDirectoryURL]
++[SnapyrFileStorage cachesDirectoryURL]
+-[SnapyrFileStorage urlForKey:]
+-[SnapyrFileStorage jsonForKey:]
+-[SnapyrFileStorage setJSON:forKey:]
+-[SnapyrFileStorage dataFromJSON:]
+-[SnapyrFileStorage jsonFromData:needsConversion:]
+-[SnapyrFileStorage createDirectoryAtURLIfNeeded:]
+-[SnapyrFileStorage dataFromPlist:]
+-[SnapyrFileStorage plistFromData:]
+-[SnapyrFileStorage crypto]
+-[SnapyrFileStorage setCrypto:]
+-[SnapyrFileStorage folderURL]
+-[SnapyrFileStorage setFolderURL:]
+-[SnapyrFileStorage .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.30
+_OBJC_CLASSLIST_REFERENCES_$_.51
+_OBJC_SELECTOR_REFERENCES_.57
+_OBJC_SELECTOR_REFERENCES_.59
+_OBJC_SELECTOR_REFERENCES_.63
+_OBJC_CLASSLIST_REFERENCES_$_.64
+_OBJC_CLASSLIST_REFERENCES_$_.71
+_OBJC_CLASSLIST_REFERENCES_$_.90
+__OBJC_$_CLASS_METHODS_SnapyrFileStorage
+__OBJC_$_PROTOCOL_REFS_SnapyrStorage
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SnapyrStorage
+__OBJC_$_PROP_LIST_SnapyrStorage
+__OBJC_$_PROTOCOL_METHOD_TYPES_SnapyrStorage
+__OBJC_PROTOCOL_$_SnapyrStorage
+__OBJC_LABEL_PROTOCOL_$_SnapyrStorage
+__OBJC_CLASS_PROTOCOLS_$_SnapyrFileStorage
+__OBJC_METACLASS_RO_$_SnapyrFileStorage
+__OBJC_$_INSTANCE_METHODS_SnapyrFileStorage
+_OBJC_IVAR_$_SnapyrFileStorage._crypto
+_OBJC_IVAR_$_SnapyrFileStorage._folderURL
+__OBJC_$_INSTANCE_VARIABLES_SnapyrFileStorage
+__OBJC_$_PROP_LIST_SnapyrFileStorage
+__OBJC_CLASS_RO_$_SnapyrFileStorage
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Internal/SnapyrFileStorage.m
+Snapyr/Internal/SnapyrFileStorage.m
+Snapyr/Internal/SnapyrFileStorage.h
+-[SnapyrUserDefaultsStorage initWithDefaults:namespacePrefix:crypto:]
+-[SnapyrUserDefaultsStorage removeKey:]
+-[SnapyrUserDefaultsStorage resetAll]
+-[SnapyrUserDefaultsStorage setObject:forKey:]
+-[SnapyrUserDefaultsStorage setData:forKey:]
+-[SnapyrUserDefaultsStorage dataForKey:]
+-[SnapyrUserDefaultsStorage dictionaryForKey:]
+-[SnapyrUserDefaultsStorage setDictionary:forKey:]
+-[SnapyrUserDefaultsStorage arrayForKey:]
+-[SnapyrUserDefaultsStorage setArray:forKey:]
+-[SnapyrUserDefaultsStorage stringForKey:]
+-[SnapyrUserDefaultsStorage setString:forKey:]
+-[SnapyrUserDefaultsStorage plistForKey:]
+-[SnapyrUserDefaultsStorage setPlist:forKey:]
+-[SnapyrUserDefaultsStorage namespacedKey:]
+-[SnapyrUserDefaultsStorage crypto]
+-[SnapyrUserDefaultsStorage setCrypto:]
+-[SnapyrUserDefaultsStorage defaults]
+-[SnapyrUserDefaultsStorage namespacePrefix]
+-[SnapyrUserDefaultsStorage .cxx_destruct]
+_OBJC_SELECTOR_REFERENCES_.44
+_OBJC_CLASSLIST_REFERENCES_$_.47
+__OBJC_CLASS_PROTOCOLS_$_SnapyrUserDefaultsStorage
+__OBJC_METACLASS_RO_$_SnapyrUserDefaultsStorage
+__OBJC_$_INSTANCE_METHODS_SnapyrUserDefaultsStorage
+_OBJC_IVAR_$_SnapyrUserDefaultsStorage._crypto
+_OBJC_IVAR_$_SnapyrUserDefaultsStorage._defaults
+_OBJC_IVAR_$_SnapyrUserDefaultsStorage._namespacePrefix
+__OBJC_$_INSTANCE_VARIABLES_SnapyrUserDefaultsStorage
+__OBJC_$_PROP_LIST_SnapyrUserDefaultsStorage
+__OBJC_CLASS_RO_$_SnapyrUserDefaultsStorage
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Internal/SnapyrUserDefaultsStorage.m
+Snapyr/Internal/SnapyrUserDefaultsStorage.m
+Snapyr/Internal/SnapyrUserDefaultsStorage.h
+-[SnapyrPayload initWithContext:integrations:]
+-[SnapyrPayload userId]
+-[SnapyrPayload setUserId:]
+-[SnapyrPayload anonymousId]
+-[SnapyrPayload setAnonymousId:]
+-[SnapyrPayload context]
+-[SnapyrPayload integrations]
+-[SnapyrPayload timestamp]
+-[SnapyrPayload setTimestamp:]
+-[SnapyrPayload messageId]
+-[SnapyrPayload setMessageId:]
+-[SnapyrPayload .cxx_destruct]
+-[SnapyrApplicationLifecyclePayload notificationName]
+-[SnapyrApplicationLifecyclePayload setNotificationName:]
+-[SnapyrApplicationLifecyclePayload launchOptions]
+-[SnapyrApplicationLifecyclePayload setLaunchOptions:]
+-[SnapyrApplicationLifecyclePayload .cxx_destruct]
+-[SnapyrRemoteNotificationPayload actionIdentifier]
+-[SnapyrRemoteNotificationPayload setActionIdentifier:]
+-[SnapyrRemoteNotificationPayload userInfo]
+-[SnapyrRemoteNotificationPayload setUserInfo:]
+-[SnapyrRemoteNotificationPayload error]
+-[SnapyrRemoteNotificationPayload setError:]
+-[SnapyrRemoteNotificationPayload deviceToken]
+-[SnapyrRemoteNotificationPayload setDeviceToken:]
+-[SnapyrRemoteNotificationPayload .cxx_destruct]
+-[SnapyrContinueUserActivityPayload activity]
+-[SnapyrContinueUserActivityPayload setActivity:]
+-[SnapyrContinueUserActivityPayload .cxx_destruct]
+-[SnapyrOpenURLPayload url]
+-[SnapyrOpenURLPayload setUrl:]
+-[SnapyrOpenURLPayload options]
+-[SnapyrOpenURLPayload setOptions:]
+-[SnapyrOpenURLPayload .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.7
+__OBJC_METACLASS_RO_$_SnapyrPayload
+__OBJC_$_INSTANCE_METHODS_SnapyrPayload
+_OBJC_IVAR_$_SnapyrPayload._userId
+_OBJC_IVAR_$_SnapyrPayload._anonymousId
+_OBJC_IVAR_$_SnapyrPayload._context
+_OBJC_IVAR_$_SnapyrPayload._integrations
+_OBJC_IVAR_$_SnapyrPayload._timestamp
+_OBJC_IVAR_$_SnapyrPayload._messageId
+__OBJC_$_INSTANCE_VARIABLES_SnapyrPayload
+__OBJC_$_PROP_LIST_SnapyrPayload
+__OBJC_CLASS_RO_$_SnapyrPayload
+_OBJC_IVAR_$_SnapyrApplicationLifecyclePayload._notificationName
+_OBJC_IVAR_$_SnapyrApplicationLifecyclePayload._launchOptions
+__OBJC_METACLASS_RO_$_SnapyrApplicationLifecyclePayload
+__OBJC_$_INSTANCE_METHODS_SnapyrApplicationLifecyclePayload
+__OBJC_$_INSTANCE_VARIABLES_SnapyrApplicationLifecyclePayload
+__OBJC_$_PROP_LIST_SnapyrApplicationLifecyclePayload
+__OBJC_CLASS_RO_$_SnapyrApplicationLifecyclePayload
+_OBJC_IVAR_$_SnapyrRemoteNotificationPayload._actionIdentifier
+_OBJC_IVAR_$_SnapyrRemoteNotificationPayload._userInfo
+_OBJC_IVAR_$_SnapyrRemoteNotificationPayload._error
+_OBJC_IVAR_$_SnapyrRemoteNotificationPayload._deviceToken
+__OBJC_METACLASS_RO_$_SnapyrRemoteNotificationPayload
+__OBJC_$_INSTANCE_METHODS_SnapyrRemoteNotificationPayload
+__OBJC_$_INSTANCE_VARIABLES_SnapyrRemoteNotificationPayload
+__OBJC_$_PROP_LIST_SnapyrRemoteNotificationPayload
+__OBJC_CLASS_RO_$_SnapyrRemoteNotificationPayload
+_OBJC_IVAR_$_SnapyrContinueUserActivityPayload._activity
+__OBJC_METACLASS_RO_$_SnapyrContinueUserActivityPayload
+__OBJC_$_INSTANCE_METHODS_SnapyrContinueUserActivityPayload
+__OBJC_$_INSTANCE_VARIABLES_SnapyrContinueUserActivityPayload
+__OBJC_$_PROP_LIST_SnapyrContinueUserActivityPayload
+__OBJC_CLASS_RO_$_SnapyrContinueUserActivityPayload
+_OBJC_IVAR_$_SnapyrOpenURLPayload._url
+_OBJC_IVAR_$_SnapyrOpenURLPayload._options
+__OBJC_METACLASS_RO_$_SnapyrOpenURLPayload
+__OBJC_$_INSTANCE_METHODS_SnapyrOpenURLPayload
+__OBJC_$_INSTANCE_VARIABLES_SnapyrOpenURLPayload
+__OBJC_$_PROP_LIST_SnapyrOpenURLPayload
+__OBJC_CLASS_RO_$_SnapyrOpenURLPayload
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Classes/SnapyrPayload.m
+Snapyr/Classes/SnapyrPayload.m
+Snapyr/Classes/SnapyrPayload.h
+___snapyr_libzOpen_block_invoke
+-[NSData(SnapyrGZIP) snapyr_gzippedDataWithCompressionLevel:]
+-[NSData(SnapyrGZIP) snapyr_gzippedData]
+-[NSData(SnapyrGZIP) snapyr_isGzippedData]
+_snapyr_libzOpen.libz
+_snapyr_libzOpen.onceToken
+_OBJC_SELECTOR_REFERENCES_.3
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSData_$_SnapyrGZIP
+__OBJC_$_CATEGORY_NSData_$_SnapyrGZIP
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Internal/NSData+SnapyrGZIP.m
+Snapyr/Internal/NSData+SnapyrGZIP.m
+snapyr_libzOpen
+__snapyr_libzOpen_block_invoke
+-[SnapyrContext init]
+-[SnapyrContext initWithSDK:]
+-[SnapyrContext modify:]
+-[SnapyrContext copyWithZone:]
+-[SnapyrContext sdk]
+-[SnapyrContext eventType]
+-[SnapyrContext setEventType:]
+-[SnapyrContext error]
+-[SnapyrContext setError:]
+-[SnapyrContext payload]
+-[SnapyrContext setPayload:]
+-[SnapyrContext debug]
+-[SnapyrContext setDebug:]
+-[SnapyrContext userId]
+-[SnapyrContext setUserId:]
+-[SnapyrContext anonymousId]
+-[SnapyrContext setAnonymousId:]
+-[SnapyrContext .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.15
+__OBJC_$_PROTOCOL_REFS_SnapyrMutableContext
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SnapyrMutableContext
+__OBJC_$_PROP_LIST_SnapyrMutableContext
+__OBJC_$_PROTOCOL_METHOD_TYPES_SnapyrMutableContext
+__OBJC_PROTOCOL_$_SnapyrMutableContext
+__OBJC_LABEL_PROTOCOL_$_SnapyrMutableContext
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+__OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+__OBJC_PROTOCOL_$_NSCopying
+__OBJC_LABEL_PROTOCOL_$_NSCopying
+__OBJC_CLASS_PROTOCOLS_$_SnapyrContext
+__OBJC_METACLASS_RO_$_SnapyrContext
+__OBJC_$_INSTANCE_METHODS_SnapyrContext
+_OBJC_IVAR_$_SnapyrContext._debug
+_OBJC_IVAR_$_SnapyrContext._sdk
+_OBJC_IVAR_$_SnapyrContext._eventType
+_OBJC_IVAR_$_SnapyrContext._error
+_OBJC_IVAR_$_SnapyrContext._payload
+_OBJC_IVAR_$_SnapyrContext._userId
+_OBJC_IVAR_$_SnapyrContext._anonymousId
+__OBJC_$_INSTANCE_VARIABLES_SnapyrContext
+__OBJC_$_PROP_LIST_SnapyrContext
+__OBJC_CLASS_RO_$_SnapyrContext
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Classes/SnapyrContext.m
+Snapyr/Classes/SnapyrContext.m
+Snapyr/Classes/SnapyrContext.h
+-[SnapyrDestinationMiddleware initWithKey:middleware:]
+-[SnapyrDestinationMiddleware integrationKey]
+-[SnapyrDestinationMiddleware middleware]
+-[SnapyrDestinationMiddleware .cxx_destruct]
+-[SnapyrBlockMiddleware initWithBlock:]
+-[SnapyrBlockMiddleware context:next:]
+-[SnapyrBlockMiddleware block]
+-[SnapyrBlockMiddleware .cxx_destruct]
+-[SnapyrMiddlewareRunner initWithMiddleware:]
+-[SnapyrMiddlewareRunner run:callback:]
+-[SnapyrMiddlewareRunner runMiddlewares:context:callback:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___58-[SnapyrMiddlewareRunner runMiddlewares:context:callback:]_block_invoke
+___copy_helper_block_e4_20s24s28b32r
+___destroy_helper_block_e4_20s24s28s32r
+-[SnapyrMiddlewareRunner middlewares]
+-[SnapyrMiddlewareRunner .cxx_destruct]
+__OBJC_METACLASS_RO_$_SnapyrDestinationMiddleware
+__OBJC_$_INSTANCE_METHODS_SnapyrDestinationMiddleware
+_OBJC_IVAR_$_SnapyrDestinationMiddleware._integrationKey
+_OBJC_IVAR_$_SnapyrDestinationMiddleware._middleware
+__OBJC_$_INSTANCE_VARIABLES_SnapyrDestinationMiddleware
+__OBJC_$_PROP_LIST_SnapyrDestinationMiddleware
+__OBJC_CLASS_RO_$_SnapyrDestinationMiddleware
+__OBJC_CLASS_PROTOCOLS_$_SnapyrBlockMiddleware
+__OBJC_METACLASS_RO_$_SnapyrBlockMiddleware
+__OBJC_$_INSTANCE_METHODS_SnapyrBlockMiddleware
+_OBJC_IVAR_$_SnapyrBlockMiddleware._block
+__OBJC_$_INSTANCE_VARIABLES_SnapyrBlockMiddleware
+__OBJC_$_PROP_LIST_SnapyrBlockMiddleware
+__OBJC_CLASS_RO_$_SnapyrBlockMiddleware
+___block_descriptor_36_e4_20s24s28bs32r_e22_v8?0"SnapyrContext"4l
+__OBJC_METACLASS_RO_$_SnapyrMiddlewareRunner
+__OBJC_$_INSTANCE_METHODS_SnapyrMiddlewareRunner
+_OBJC_IVAR_$_SnapyrMiddlewareRunner._middlewares
+__OBJC_$_INSTANCE_VARIABLES_SnapyrMiddlewareRunner
+__OBJC_$_PROP_LIST_SnapyrMiddlewareRunner
+__OBJC_CLASS_RO_$_SnapyrMiddlewareRunner
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Classes/SnapyrMiddleware.m
+Snapyr/Classes/SnapyrMiddleware.m
+Snapyr/Classes/SnapyrMiddleware.h
+__destroy_helper_block_e4_20s24s28s32r
+__copy_helper_block_e4_20s24s28b32r
+__58-[SnapyrMiddlewareRunner runMiddlewares:context:callback:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+-[UIApplication(SnapyrApplicationProtocol) snapyr_beginBackgroundTaskWithName:expirationHandler:]
+-[UIApplication(SnapyrApplicationProtocol) snapyr_endBackgroundTask:]
+-[SnapyrSDKExperimental nanosecondTimestamps]
+-[SnapyrSDKExperimental setNanosecondTimestamps:]
+-[SnapyrSDKExperimental rawSnapyrModificationBlock]
+-[SnapyrSDKExperimental setRawSnapyrModificationBlock:]
+-[SnapyrSDKExperimental .cxx_destruct]
++[SnapyrSDKConfiguration configurationWithWriteKey:]
++[SnapyrSDKConfiguration configurationWithWriteKey:defaultAPIHost:]
+-[SnapyrSDKConfiguration initWithWriteKey:defaultAPIHost:]
+-[SnapyrSDKConfiguration init]
+-[SnapyrSDKConfiguration apiHost]
+-[SnapyrSDKConfiguration use:]
+-[SnapyrSDKConfiguration description]
+-[SnapyrSDKConfiguration setMiddlewares:]
+-[SnapyrSDKConfiguration middlewares]
+-[SnapyrSDKConfiguration setEdgeFunctionMiddleware:]
+-[SnapyrSDKConfiguration writeKey]
+-[SnapyrSDKConfiguration setWriteKey:]
+-[SnapyrSDKConfiguration enableDevEnvironment]
+-[SnapyrSDKConfiguration setEnableDevEnvironment:]
+-[SnapyrSDKConfiguration shouldUseLocationServices]
+-[SnapyrSDKConfiguration setShouldUseLocationServices:]
+-[SnapyrSDKConfiguration enableAdvertisingTracking]
+-[SnapyrSDKConfiguration setEnableAdvertisingTracking:]
+-[SnapyrSDKConfiguration flushAt]
+-[SnapyrSDKConfiguration setFlushAt:]
+-[SnapyrSDKConfiguration useMocks]
+-[SnapyrSDKConfiguration setUseMocks:]
+-[SnapyrSDKConfiguration flushInterval]
+-[SnapyrSDKConfiguration setFlushInterval:]
+-[SnapyrSDKConfiguration maxQueueSize]
+-[SnapyrSDKConfiguration setMaxQueueSize:]
+-[SnapyrSDKConfiguration trackApplicationLifecycleEvents]
+-[SnapyrSDKConfiguration setTrackApplicationLifecycleEvents:]
+-[SnapyrSDKConfiguration shouldUseBluetooth]
+-[SnapyrSDKConfiguration setShouldUseBluetooth:]
+-[SnapyrSDKConfiguration recordScreenViews]
+-[SnapyrSDKConfiguration setRecordScreenViews:]
+-[SnapyrSDKConfiguration trackInAppPurchases]
+-[SnapyrSDKConfiguration setTrackInAppPurchases:]
+-[SnapyrSDKConfiguration trackPushNotifications]
+-[SnapyrSDKConfiguration setTrackPushNotifications:]
+-[SnapyrSDKConfiguration trackDeepLinks]
+-[SnapyrSDKConfiguration setTrackDeepLinks:]
+-[SnapyrSDKConfiguration launchOptions]
+-[SnapyrSDKConfiguration setLaunchOptions:]
+-[SnapyrSDKConfiguration requestFactory]
+-[SnapyrSDKConfiguration setRequestFactory:]
+-[SnapyrSDKConfiguration crypto]
+-[SnapyrSDKConfiguration setCrypto:]
+-[SnapyrSDKConfiguration defaultSettings]
+-[SnapyrSDKConfiguration setDefaultSettings:]
+-[SnapyrSDKConfiguration sourceMiddleware]
+-[SnapyrSDKConfiguration setSourceMiddleware:]
+-[SnapyrSDKConfiguration destinationMiddleware]
+-[SnapyrSDKConfiguration setDestinationMiddleware:]
+-[SnapyrSDKConfiguration edgeFunctionMiddleware]
+-[SnapyrSDKConfiguration application]
+-[SnapyrSDKConfiguration setApplication:]
+-[SnapyrSDKConfiguration payloadFilters]
+-[SnapyrSDKConfiguration setPayloadFilters:]
+-[SnapyrSDKConfiguration httpSessionDelegate]
+-[SnapyrSDKConfiguration setHttpSessionDelegate:]
+-[SnapyrSDKConfiguration actionHandler]
+-[SnapyrSDKConfiguration setActionHandler:]
+-[SnapyrSDKConfiguration errorHandler]
+-[SnapyrSDKConfiguration setErrorHandler:]
+-[SnapyrSDKConfiguration adSupportBlock]
+-[SnapyrSDKConfiguration setAdSupportBlock:]
+-[SnapyrSDKConfiguration experimental]
+-[SnapyrSDKConfiguration setExperimental:]
+-[SnapyrSDKConfiguration factories]
+-[SnapyrSDKConfiguration .cxx_destruct]
+__OBJC_$_CATEGORY_INSTANCE_METHODS_UIApplication_$_SnapyrApplicationProtocol
+__OBJC_$_PROTOCOL_REFS_SnapyrApplicationProtocol
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SnapyrApplicationProtocol
+__OBJC_$_PROP_LIST_SnapyrApplicationProtocol
+__OBJC_$_PROTOCOL_METHOD_TYPES_SnapyrApplicationProtocol
+__OBJC_PROTOCOL_$_SnapyrApplicationProtocol
+__OBJC_LABEL_PROTOCOL_$_SnapyrApplicationProtocol
+__OBJC_CATEGORY_PROTOCOLS_$_UIApplication_$_SnapyrApplicationProtocol
+__OBJC_$_PROP_LIST_UIApplication_$_SnapyrApplicationProtocol
+__OBJC_$_CATEGORY_UIApplication_$_SnapyrApplicationProtocol
+__OBJC_METACLASS_RO_$_SnapyrSDKExperimental
+__OBJC_$_INSTANCE_METHODS_SnapyrSDKExperimental
+_OBJC_IVAR_$_SnapyrSDKExperimental._nanosecondTimestamps
+_OBJC_IVAR_$_SnapyrSDKExperimental._rawSnapyrModificationBlock
+__OBJC_$_INSTANCE_VARIABLES_SnapyrSDKExperimental
+__OBJC_$_PROP_LIST_SnapyrSDKExperimental
+__OBJC_CLASS_RO_$_SnapyrSDKExperimental
+_OBJC_CLASSLIST_REFERENCES_$_.80
+_OBJC_CLASSLIST_REFERENCES_$_.91
+_OBJC_SELECTOR_REFERENCES_.105
+_OBJC_CLASSLIST_REFERENCES_$_.110
+_OBJC_SELECTOR_REFERENCES_.112
+_OBJC_CLASSLIST_REFERENCES_$_.115
+_OBJC_CLASSLIST_REFERENCES_$_.129
+_OBJC_CLASSLIST_REFERENCES_$_.139
+_OBJC_SELECTOR_REFERENCES_.151
+_OBJC_SELECTOR_REFERENCES_.153
+__OBJC_$_CLASS_METHODS_SnapyrSDKConfiguration
+__OBJC_METACLASS_RO_$_SnapyrSDKConfiguration
+__OBJC_$_INSTANCE_METHODS_SnapyrSDKConfiguration
+_OBJC_IVAR_$_SnapyrSDKConfiguration._enableDevEnvironment
+_OBJC_IVAR_$_SnapyrSDKConfiguration._shouldUseLocationServices
+_OBJC_IVAR_$_SnapyrSDKConfiguration._enableAdvertisingTracking
+_OBJC_IVAR_$_SnapyrSDKConfiguration._useMocks
+_OBJC_IVAR_$_SnapyrSDKConfiguration._trackApplicationLifecycleEvents
+_OBJC_IVAR_$_SnapyrSDKConfiguration._shouldUseBluetooth
+_OBJC_IVAR_$_SnapyrSDKConfiguration._recordScreenViews
+_OBJC_IVAR_$_SnapyrSDKConfiguration._trackInAppPurchases
+_OBJC_IVAR_$_SnapyrSDKConfiguration._trackPushNotifications
+_OBJC_IVAR_$_SnapyrSDKConfiguration._trackDeepLinks
+_OBJC_IVAR_$_SnapyrSDKConfiguration._writeKey
+_OBJC_IVAR_$_SnapyrSDKConfiguration._flushAt
+_OBJC_IVAR_$_SnapyrSDKConfiguration._maxQueueSize
+_OBJC_IVAR_$_SnapyrSDKConfiguration._launchOptions
+_OBJC_IVAR_$_SnapyrSDKConfiguration._requestFactory
+_OBJC_IVAR_$_SnapyrSDKConfiguration._crypto
+_OBJC_IVAR_$_SnapyrSDKConfiguration._defaultSettings
+_OBJC_IVAR_$_SnapyrSDKConfiguration._sourceMiddleware
+_OBJC_IVAR_$_SnapyrSDKConfiguration._destinationMiddleware
+_OBJC_IVAR_$_SnapyrSDKConfiguration._edgeFunctionMiddleware
+_OBJC_IVAR_$_SnapyrSDKConfiguration._application
+_OBJC_IVAR_$_SnapyrSDKConfiguration._payloadFilters
+_OBJC_IVAR_$_SnapyrSDKConfiguration._httpSessionDelegate
+_OBJC_IVAR_$_SnapyrSDKConfiguration._actionHandler
+_OBJC_IVAR_$_SnapyrSDKConfiguration._errorHandler
+_OBJC_IVAR_$_SnapyrSDKConfiguration._adSupportBlock
+_OBJC_IVAR_$_SnapyrSDKConfiguration._experimental
+_OBJC_IVAR_$_SnapyrSDKConfiguration._factories
+_OBJC_IVAR_$_SnapyrSDKConfiguration._flushInterval
+__OBJC_$_INSTANCE_VARIABLES_SnapyrSDKConfiguration
+__OBJC_$_PROP_LIST_SnapyrSDKConfiguration
+__OBJC_CLASS_RO_$_SnapyrSDKConfiguration
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Classes/SnapyrSDKConfiguration.m
+Snapyr/Classes/SnapyrSDKConfiguration.m
+Snapyr/Classes/SnapyrSDKConfiguration.h
++[SnapyrUtils saveAPIHost:]
++[SnapyrUtils getAPIHost:]
++[SnapyrUtils getAPIHost]
++[SnapyrUtils getAPIHostURL:]
++[SnapyrUtils getAPIHostURL]
++[SnapyrUtils dataFromPlist:]
++[SnapyrUtils plistFromData:]
++[SnapyrUtils traverseJSON:andReplaceWithFilters:]
+___isUnitTesting_block_invoke
+___getLiveContext_block_invoke
+-[SnapyrISO8601NanosecondDateFormatter init]
+-[SnapyrISO8601NanosecondDateFormatter stringFromDate:]
+___iso8601NanoFormattedString_block_invoke
+___iso8601FormattedString_block_invoke
+___snapyr_dispatch_specific_block_invoke
+___copy_helper_block_e4_20b
++[NSJSONSerialization(Serializable) isOfSerializableType:]
+-[NSDictionary(SerializableDeepCopy) serializableDeepCopy:]
+-[NSDictionary(SerializableDeepCopy) serializableDeepCopy]
+-[NSDictionary(SerializableDeepCopy) serializableMutableDeepCopy]
+-[NSArray(SerializableDeepCopy) serializableDeepCopy:]
+-[NSArray(SerializableDeepCopy) serializableDeepCopy]
+-[NSArray(SerializableDeepCopy) serializableMutableDeepCopy]
+_OBJC_CLASSLIST_REFERENCES_$_.16
+_OBJC_CLASSLIST_REFERENCES_$_.19
+_OBJC_CLASSLIST_REFERENCES_$_.53
+__OBJC_$_CLASS_METHODS_SnapyrUtils
+__OBJC_METACLASS_RO_$_SnapyrUtils
+__OBJC_CLASS_RO_$_SnapyrUtils
+_isUnitTesting.pred
+_isUnitTesting._isUnitTesting
+_OBJC_CLASSLIST_REFERENCES_$_.82
+_OBJC_CLASSLIST_REFERENCES_$_.113
+_OBJC_CLASSLIST_REFERENCES_$_.120
+_OBJC_CLASSLIST_REFERENCES_$_.151
+_OBJC_SELECTOR_REFERENCES_.167
+_OBJC_SELECTOR_REFERENCES_.188
+_OBJC_CLASSLIST_REFERENCES_$_.202
+_OBJC_SELECTOR_REFERENCES_.204
+_OBJC_CLASSLIST_REFERENCES_$_.209
+_OBJC_SELECTOR_REFERENCES_.211
+_OBJC_SELECTOR_REFERENCES_.213
+_OBJC_SELECTOR_REFERENCES_.217
+_OBJC_SELECTOR_REFERENCES_.219
+_OBJC_SELECTOR_REFERENCES_.223
+_getLiveContext.networkInfoOnceToken
+___block_literal_global.226
+__telephonyNetworkInfo
+_OBJC_SELECTOR_REFERENCES_.243
+_OBJC_SELECTOR_REFERENCES_.247
+_OBJC_SELECTOR_REFERENCES_.249
+_OBJC_CLASSLIST_REFERENCES_$_.254
+_OBJC_SELECTOR_REFERENCES_.258
+_OBJC_SELECTOR_REFERENCES_.260
+_OBJC_SELECTOR_REFERENCES_.264
+_OBJC_SELECTOR_REFERENCES_.268
+_OBJC_SELECTOR_REFERENCES_.270
+__OBJC_METACLASS_RO_$_SnapyrISO8601NanosecondDateFormatter
+__OBJC_$_INSTANCE_METHODS_SnapyrISO8601NanosecondDateFormatter
+__OBJC_CLASS_RO_$_SnapyrISO8601NanosecondDateFormatter
+_iso8601NanoFormattedString.dateFormatter
+_iso8601NanoFormattedString.onceToken
+___block_literal_global.278
+_OBJC_CLASSLIST_REFERENCES_$_.279
+_iso8601FormattedString.dateFormatter
+_iso8601FormattedString.onceToken
+___block_literal_global.280
+_OBJC_CLASSLIST_REFERENCES_$_.281
+_OBJC_SELECTOR_REFERENCES_.285
+___block_descriptor_24_e4_20bs_e5_v4?0l
+__OBJC_PROTOCOL_REFERENCE_$_SnapyrSerializable
+_OBJC_CLASSLIST_REFERENCES_$_.296
+__OBJC_$_CATEGORY_CLASS_METHODS_NSJSONSerialization_$_Serializable
+__OBJC_$_CATEGORY_NSJSONSerialization_$_Serializable
+_OBJC_CLASSLIST_REFERENCES_$_.302
+__OBJC_$_PROTOCOL_REFS_SnapyrSerializableDeepCopy
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SnapyrSerializableDeepCopy
+__OBJC_$_PROTOCOL_METHOD_TYPES_SnapyrSerializableDeepCopy
+__OBJC_PROTOCOL_$_SnapyrSerializableDeepCopy
+__OBJC_LABEL_PROTOCOL_$_SnapyrSerializableDeepCopy
+__OBJC_PROTOCOL_REFERENCE_$_SnapyrSerializableDeepCopy
+_OBJC_SELECTOR_REFERENCES_.345
+_OBJC_SELECTOR_REFERENCES_.346
+__OBJC_PROTOCOL_REFERENCE_$_NSCopying
+_OBJC_SELECTOR_REFERENCES_.351
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSDictionary_$_SerializableDeepCopy
+__OBJC_CATEGORY_PROTOCOLS_$_NSDictionary_$_SerializableDeepCopy
+__OBJC_$_PROP_LIST_NSDictionary_$_SerializableDeepCopy
+__OBJC_$_CATEGORY_NSDictionary_$_SerializableDeepCopy
+_OBJC_SELECTOR_REFERENCES_.356
+__OBJC_$_CATEGORY_INSTANCE_METHODS_NSArray_$_SerializableDeepCopy
+__OBJC_CATEGORY_PROTOCOLS_$_NSArray_$_SerializableDeepCopy
+__OBJC_$_PROP_LIST_NSArray_$_SerializableDeepCopy
+__OBJC_$_CATEGORY_NSArray_$_SerializableDeepCopy
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Internal/SnapyrUtils.m
+Snapyr/Internal/SnapyrUtils.m
+snapyrEventNameForScreenTitle
+snapyrCoerceDictionary
+snapyr_dispatch_specific_sync
+snapyr_dispatch_specific_async
+__copy_helper_block_e4_20b
+__snapyr_dispatch_specific_block_invoke
+snapyr_dispatch_specific
+snapyr_dispatch_is_on_specific_queue
+snapyr_dispatch_queue_create_specific
+trimQueue
+__iso8601FormattedString_block_invoke
+iso8601FormattedString
+__iso8601NanoFormattedString_block_invoke
+iso8601NanoFormattedString
+GenerateUUIDString
+__getLiveContext_block_invoke
+getLiveContext
+mobileSpecifications
+getStaticContext
+getAdTrackingEnabled
+getDeviceModel
+deviceTokenToString
+__isUnitTesting_block_invoke
+isUnitTesting
++[SnapyrReachability reachabilityWithHostName:]
++[SnapyrReachability reachabilityWithHostname:]
++[SnapyrReachability reachabilityWithAddress:]
++[SnapyrReachability reachabilityForInternetConnection]
++[SnapyrReachability reachabilityForLocalWiFi]
+-[SnapyrReachability initWithReachabilityRef:]
+-[SnapyrReachability dealloc]
+-[SnapyrReachability startNotifier]
+_TMReachabilityCallback
+-[SnapyrReachability stopNotifier]
+-[SnapyrReachability isReachableWithFlags:]
+-[SnapyrReachability isReachable]
+-[SnapyrReachability isReachableViaWWAN]
+-[SnapyrReachability isReachableViaWiFi]
+-[SnapyrReachability isConnectionRequired]
+-[SnapyrReachability connectionRequired]
+-[SnapyrReachability isConnectionOnDemand]
+-[SnapyrReachability isInterventionRequired]
+-[SnapyrReachability currentReachabilityStatus]
+-[SnapyrReachability reachabilityFlags]
+-[SnapyrReachability currentReachabilityString]
+-[SnapyrReachability currentReachabilityFlags]
+-[SnapyrReachability reachabilityChanged:]
+___42-[SnapyrReachability reachabilityChanged:]_block_invoke
+-[SnapyrReachability description]
+-[SnapyrReachability reachabilityRef]
+-[SnapyrReachability setReachabilityRef:]
+-[SnapyrReachability reachabilitySerialQueue]
+-[SnapyrReachability setReachabilitySerialQueue:]
+-[SnapyrReachability reachableOnWWAN]
+-[SnapyrReachability setReachableOnWWAN:]
+-[SnapyrReachability reachableBlock]
+-[SnapyrReachability setReachableBlock:]
+-[SnapyrReachability unreachableBlock]
+-[SnapyrReachability setUnreachableBlock:]
+-[SnapyrReachability reachabilityObject]
+-[SnapyrReachability setReachabilityObject:]
+-[SnapyrReachability .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.42
+_OBJC_CLASSLIST_REFERENCES_$_.61
+_OBJC_CLASSLIST_REFERENCES_$_.67
+__OBJC_$_CLASS_METHODS_SnapyrReachability
+__OBJC_METACLASS_RO_$_SnapyrReachability
+__OBJC_$_INSTANCE_METHODS_SnapyrReachability
+_OBJC_IVAR_$_SnapyrReachability.reachableOnWWAN
+_OBJC_IVAR_$_SnapyrReachability.reachabilityRef
+_OBJC_IVAR_$_SnapyrReachability.reachabilitySerialQueue
+_OBJC_IVAR_$_SnapyrReachability.reachableBlock
+_OBJC_IVAR_$_SnapyrReachability.unreachableBlock
+_OBJC_IVAR_$_SnapyrReachability.reachabilityObject
+__OBJC_$_INSTANCE_VARIABLES_SnapyrReachability
+__OBJC_$_PROP_LIST_SnapyrReachability
+__OBJC_CLASS_RO_$_SnapyrReachability
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Classes/SnapyrReachability.m
+Snapyr/Classes/SnapyrReachability.m
+__42-[SnapyrReachability reachabilityChanged:]_block_invoke
+reachabilityFlags
+TMReachabilityCallback
+-[SnapyrGroupPayload initWithGroupId:traits:context:integrations:]
+-[SnapyrGroupPayload groupId]
+-[SnapyrGroupPayload traits]
+-[SnapyrGroupPayload .cxx_destruct]
+_OBJC_IVAR_$_SnapyrGroupPayload._groupId
+_OBJC_IVAR_$_SnapyrGroupPayload._traits
+__OBJC_METACLASS_RO_$_SnapyrGroupPayload
+__OBJC_$_INSTANCE_METHODS_SnapyrGroupPayload
+__OBJC_$_INSTANCE_VARIABLES_SnapyrGroupPayload
+__OBJC_$_PROP_LIST_SnapyrGroupPayload
+__OBJC_CLASS_RO_$_SnapyrGroupPayload
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Classes/SnapyrGroupPayload.m
+Snapyr/Classes/SnapyrGroupPayload.m
+Snapyr/Classes/SnapyrGroupPayload.h
+-[SnapyrUserInfo initWithState:]
+-[SnapyrUserInfo anonymousId]
+___29-[SnapyrUserInfo anonymousId]_block_invoke
+-[SnapyrUserInfo setAnonymousId:]
+___33-[SnapyrUserInfo setAnonymousId:]_block_invoke
+-[SnapyrUserInfo userId]
+___24-[SnapyrUserInfo userId]_block_invoke
+-[SnapyrUserInfo setUserId:]
+___28-[SnapyrUserInfo setUserId:]_block_invoke
+-[SnapyrUserInfo traits]
+___24-[SnapyrUserInfo traits]_block_invoke
+-[SnapyrUserInfo setTraits:]
+___28-[SnapyrUserInfo setTraits:]_block_invoke
+-[SnapyrUserInfo state]
+-[SnapyrUserInfo setState:]
+-[SnapyrUserInfo hasUnregisteredDeviceToken]
+-[SnapyrUserInfo setHasUnregisteredDeviceToken:]
+-[SnapyrUserInfo .cxx_destruct]
+-[SnapyrPayloadContext initWithState:]
+-[SnapyrPayloadContext updateStaticContext]
+-[SnapyrPayloadContext payload]
+-[SnapyrPayloadContext referrer]
+___32-[SnapyrPayloadContext referrer]_block_invoke
+-[SnapyrPayloadContext setReferrer:]
+___36-[SnapyrPayloadContext setReferrer:]_block_invoke
+-[SnapyrPayloadContext deviceToken]
+___35-[SnapyrPayloadContext deviceToken]_block_invoke
+-[SnapyrPayloadContext setDeviceToken:]
+___39-[SnapyrPayloadContext setDeviceToken:]_block_invoke
+-[SnapyrPayloadContext state]
+-[SnapyrPayloadContext setState:]
+-[SnapyrPayloadContext reachability]
+-[SnapyrPayloadContext setReachability:]
+-[SnapyrPayloadContext cachedStaticContext]
+-[SnapyrPayloadContext setCachedStaticContext:]
+-[SnapyrPayloadContext .cxx_destruct]
++[SnapyrState sharedInstance]
+___29+[SnapyrState sharedInstance]_block_invoke
+___copy_helper_block_e4_
+___destroy_helper_block_e4_
+-[SnapyrState init]
+-[SnapyrState setValueWithBlock:]
+-[SnapyrState valueWithBlock:]
+___30-[SnapyrState valueWithBlock:]_block_invoke
+___copy_helper_block_e4_20b24r
+___destroy_helper_block_e4_20s24r
+-[SnapyrState userInfo]
+-[SnapyrState setUserInfo:]
+-[SnapyrState context]
+-[SnapyrState setContext:]
+-[SnapyrState configuration]
+-[SnapyrState setConfiguration:]
+-[SnapyrState .cxx_destruct]
+___block_descriptor_24_e4_20s_e5_4?0l
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SnapyrStateObject
+__OBJC_$_PROP_LIST_SnapyrStateObject
+__OBJC_$_PROTOCOL_METHOD_TYPES_SnapyrStateObject
+__OBJC_PROTOCOL_$_SnapyrStateObject
+__OBJC_LABEL_PROTOCOL_$_SnapyrStateObject
+__OBJC_CLASS_PROTOCOLS_$_SnapyrUserInfo
+__OBJC_METACLASS_RO_$_SnapyrUserInfo
+__OBJC_$_INSTANCE_METHODS_SnapyrUserInfo
+_OBJC_IVAR_$_SnapyrUserInfo._hasUnregisteredDeviceToken
+_OBJC_IVAR_$_SnapyrUserInfo.state
+_OBJC_IVAR_$_SnapyrUserInfo._anonymousId
+_OBJC_IVAR_$_SnapyrUserInfo._userId
+_OBJC_IVAR_$_SnapyrUserInfo._traits
+__OBJC_$_INSTANCE_VARIABLES_SnapyrUserInfo
+__OBJC_$_PROP_LIST_SnapyrUserInfo
+__OBJC_CLASS_RO_$_SnapyrUserInfo
+_OBJC_SELECTOR_REFERENCES_.61
+__OBJC_CLASS_PROTOCOLS_$_SnapyrPayloadContext
+__OBJC_METACLASS_RO_$_SnapyrPayloadContext
+__OBJC_$_INSTANCE_METHODS_SnapyrPayloadContext
+_OBJC_IVAR_$_SnapyrPayloadContext.state
+_OBJC_IVAR_$_SnapyrPayloadContext.reachability
+_OBJC_IVAR_$_SnapyrPayloadContext._referrer
+_OBJC_IVAR_$_SnapyrPayloadContext._cachedStaticContext
+_OBJC_IVAR_$_SnapyrPayloadContext._deviceToken
+__OBJC_$_INSTANCE_VARIABLES_SnapyrPayloadContext
+__OBJC_$_PROP_LIST_SnapyrPayloadContext
+__OBJC_CLASS_RO_$_SnapyrPayloadContext
+_sharedInstance.sharedInstance
+_sharedInstance.onceToken
+___block_descriptor_24_e4__e5_v4?0l
+_OBJC_CLASSLIST_REFERENCES_$_.104
+_OBJC_CLASSLIST_REFERENCES_$_.108
+_OBJC_SELECTOR_REFERENCES_.110
+___block_descriptor_28_e4_20bs24r_e5_v4?0l
+__OBJC_$_CLASS_METHODS_SnapyrState
+__OBJC_METACLASS_RO_$_SnapyrState
+__OBJC_$_INSTANCE_METHODS_SnapyrState
+_OBJC_IVAR_$_SnapyrState._stateQueue
+_OBJC_IVAR_$_SnapyrState._userInfo
+_OBJC_IVAR_$_SnapyrState._context
+_OBJC_IVAR_$_SnapyrState._configuration
+__OBJC_$_INSTANCE_VARIABLES_SnapyrState
+__OBJC_$_PROP_LIST_SnapyrState
+__OBJC_CLASS_RO_$_SnapyrState
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Internal/SnapyrState.m
+Snapyr/Internal/SnapyrState.m
+Snapyr/Internal/SnapyrState.h
+__destroy_helper_block_e4_20s24r
+__copy_helper_block_e4_20b24r
+__30-[SnapyrState valueWithBlock:]_block_invoke
+__destroy_helper_block_e4_
+__copy_helper_block_e4_
+__29+[SnapyrState sharedInstance]_block_invoke
+__39-[SnapyrPayloadContext setDeviceToken:]_block_invoke
+__35-[SnapyrPayloadContext deviceToken]_block_invoke
+__36-[SnapyrPayloadContext setReferrer:]_block_invoke
+__32-[SnapyrPayloadContext referrer]_block_invoke
+__28-[SnapyrUserInfo setTraits:]_block_invoke
+__24-[SnapyrUserInfo traits]_block_invoke
+__28-[SnapyrUserInfo setUserId:]_block_invoke
+__24-[SnapyrUserInfo userId]_block_invoke
+__33-[SnapyrUserInfo setAnonymousId:]_block_invoke
+__29-[SnapyrUserInfo anonymousId]_block_invoke
++[UIViewController(SnapyrScreen) snapyr_swizzleViewDidAppear]
+___61+[UIViewController(SnapyrScreen) snapyr_swizzleViewDidAppear]_block_invoke
++[UIViewController(SnapyrScreen) snapyr_rootViewControllerFromView:]
++[UIViewController(SnapyrScreen) snapyr_topViewController:]
++[UIViewController(SnapyrScreen) snapyr_nextRootViewController:]
+-[UIViewController(SnapyrScreen) snapyr_viewDidAppear:]
+_snapyr_swizzleViewDidAppear.onceToken
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SnapyrScreenReporting
+__OBJC_$_PROP_LIST_SnapyrScreenReporting
+__OBJC_$_PROTOCOL_METHOD_TYPES_SnapyrScreenReporting
+__OBJC_PROTOCOL_$_SnapyrScreenReporting
+__OBJC_LABEL_PROTOCOL_$_SnapyrScreenReporting
+__OBJC_PROTOCOL_REFERENCE_$_SnapyrScreenReporting
+__OBJC_$_CATEGORY_INSTANCE_METHODS_UIViewController_$_SnapyrScreen
+__OBJC_$_CATEGORY_CLASS_METHODS_UIViewController_$_SnapyrScreen
+__OBJC_$_CATEGORY_UIViewController_$_SnapyrScreen
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Internal/UIViewController+SnapyrScreen.m
+Snapyr/Internal/UIViewController+SnapyrScreen.m
+__61+[UIViewController(SnapyrScreen) snapyr_swizzleViewDidAppear]_block_invoke
++[SnapyrStoreKitTracker trackTransactionsForSDK:]
+-[SnapyrStoreKitTracker initWithSDK:]
+-[SnapyrStoreKitTracker dealloc]
+-[SnapyrStoreKitTracker paymentQueue:updatedTransactions:]
+-[SnapyrStoreKitTracker productsRequest:didReceiveResponse:]
+-[SnapyrStoreKitTracker trackTransaction:forProduct:]
+-[SnapyrStoreKitTracker sdk]
+-[SnapyrStoreKitTracker transactions]
+-[SnapyrStoreKitTracker productRequests]
+-[SnapyrStoreKitTracker .cxx_destruct]
+_OBJC_CLASSLIST_REFERENCES_$_.3
+_OBJC_SELECTOR_REFERENCES_.5
+_OBJC_CLASSLIST_REFERENCES_$_.6
+_OBJC_CLASSLIST_REFERENCES_$_.69
+__OBJC_$_CLASS_METHODS_SnapyrStoreKitTracker
+__OBJC_$_PROTOCOL_REFS_SKPaymentTransactionObserver
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SKPaymentTransactionObserver
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SKPaymentTransactionObserver
+__OBJC_$_PROTOCOL_METHOD_TYPES_SKPaymentTransactionObserver
+__OBJC_PROTOCOL_$_SKPaymentTransactionObserver
+__OBJC_LABEL_PROTOCOL_$_SKPaymentTransactionObserver
+__OBJC_$_PROTOCOL_REFS_SKRequestDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SKRequestDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_SKRequestDelegate
+__OBJC_PROTOCOL_$_SKRequestDelegate
+__OBJC_LABEL_PROTOCOL_$_SKRequestDelegate
+__OBJC_$_PROTOCOL_REFS_SKProductsRequestDelegate
+__OBJC_$_PROTOCOL_INSTANCE_METHODS_SKProductsRequestDelegate
+__OBJC_$_PROTOCOL_METHOD_TYPES_SKProductsRequestDelegate
+__OBJC_PROTOCOL_$_SKProductsRequestDelegate
+__OBJC_LABEL_PROTOCOL_$_SKProductsRequestDelegate
+__OBJC_CLASS_PROTOCOLS_$_SnapyrStoreKitTracker
+__OBJC_METACLASS_RO_$_SnapyrStoreKitTracker
+__OBJC_$_INSTANCE_METHODS_SnapyrStoreKitTracker
+_OBJC_IVAR_$_SnapyrStoreKitTracker._sdk
+_OBJC_IVAR_$_SnapyrStoreKitTracker._transactions
+_OBJC_IVAR_$_SnapyrStoreKitTracker._productRequests
+__OBJC_$_INSTANCE_VARIABLES_SnapyrStoreKitTracker
+__OBJC_$_PROP_LIST_SnapyrStoreKitTracker
+__OBJC_CLASS_RO_$_SnapyrStoreKitTracker
+/Users/paul/dev/snapyr/snapyr-ios-sdk/Snapyr/Internal/SnapyrStoreKitTracker.m
+Snapyr/Internal/SnapyrStoreKitTracker.m
